@@ -1,0 +1,22 @@
+:root {
+  --green: #006b43;
+  --red: #c8102e;
+  --cream: #f5f2eb;
+  --text: #444;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--cream);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}

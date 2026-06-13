@@ -1,0 +1,72 @@
+.testimonials {
+  background: var(--green);
+
+  color: white;
+
+  padding: 4rem 8%;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 2rem;
+}
+
+.testimonial-card {
+  color: white;
+  text-decoration: none;
+
+  padding: 1.5rem;
+
+  border-radius: 18px;
+
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.testimonial-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+
+  transform: translateY(-6px);
+}
+
+.testimonial-card p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  position: relative;
+  z-index: 1;
+}
+
+.testimonial-card h4 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+
+  font-size: 1rem;
+}
+
+.testimonial-card span {
+  font-size: 0.85rem;
+  font-weight: 600;
+
+  opacity: 0.8;
+
+  transition: opacity 0.3s ease;
+}
+
+.testimonial-card:hover span {
+  opacity: 1;
+}
+
+.testimonial-card::before {
+  content: "❝";
+
+  position: absolute;
+  top: 0.8rem;
+  left: 1rem;
+
+  font-size: 3rem;
+  line-height: 1;
+
+  color: rgba(200, 178, 115, 0.35);
+
+  font-family: "Playfair Display", serif;
+}
