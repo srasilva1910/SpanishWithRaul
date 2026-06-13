@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Hero.css";
 import raul from "../../assets/images/raulramirez.jpg";
 
@@ -32,7 +33,9 @@ const Hero = () => {
           to advanced (A1 to C2). Spanish professor with a PhD from UNAM.
         </p>
 
-        <button>Book a Free Trial Lesson</button>
+        <Link to="/contact" className="cta-button">
+          Book a Free Trial Lesson
+        </Link>
       </div>
     </section>
   );

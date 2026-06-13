@@ -1,5 +1,6 @@
 import Navbar from "../../components/Navbar/Navbar.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
+import { Link } from "react-router-dom";
 import raul from "../../assets/images/raulramirez.jpg";
 import "./About.css";
 
@@ -21,9 +22,7 @@ const About = () => {
 
           <div className="about-content">
             <h1>About me</h1>
-
             <div className="about-divider"></div>
-
             <p>
               Hello, I'm Raúl Ramírez, a Spanish professor from Mexico City with
               a PhD in Hispanic Language and Literature from the National
@@ -53,8 +52,9 @@ const About = () => {
               who are looking for a structured, thoughtful, and personalized
               approach to learning Spanish.
             </p>
-
-            <button>Book a Free Trial Lesson</button>
+            <Link to="/contact" className="cta-button">
+              Book a Free Trial Lesson
+            </Link>{" "}
           </div>
         </section>
       </main>

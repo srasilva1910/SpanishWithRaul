@@ -157,30 +157,36 @@
   margin-top: 1.5rem;
 }
 
-.trial-section button {
-  margin-top: 2rem;
+.cta-button {
+  display: inline-block;
 
   background: linear-gradient(135deg, #c8102e 0%, #a90d26 100%);
+
   color: white;
+  text-decoration: none;
 
   padding: 1rem 2.8rem;
+
   border-radius: 999px;
-  border: none;
 
   font-size: 0.95rem;
   font-weight: 800;
   letter-spacing: 0.4px;
 
   box-shadow: 0 8px 20px rgba(200, 16, 46, 0.2);
+
+  transition: all 0.3s ease;
 }
 
-.trial-section button:hover {
+.cta-button:hover {
   background: linear-gradient(135deg, #b30f2a 0%, #930b21 100%);
+
   color: white;
+
   transform: translateY(-4px);
+
   box-shadow: 0 14px 30px rgba(200, 16, 46, 0.3);
 }
-
 @media (max-width: 768px) {
   .pricing-intro,
   .courses-image-section,

@@ -52,40 +52,6 @@
   margin-bottom: 1.2rem;
 }
 
-.hero-content button {
-  width: fit-content;
-
-  margin-top: 2rem;
-
-  background: var(--red);
-  color: white;
-
-  padding: 1rem 2.5rem;
-
-  border-radius: 999px;
-  border: none;
-
-  font-size: 0.95rem;
-  font-weight: 700;
-  letter-spacing: 0.4px;
-
-  transition: all 0.3s ease;
-}
-
-.hero-content button:hover {
-  background: #a90d26;
-
-  color: white;
-
-  transform: translateY(-3px);
-
-  box-shadow: 0 12px 30px rgba(200, 16, 46, 0.25);
-}
-
-.hero-content button:active {
-  transform: translateY(-1px);
-}
-
 .hero-divider {
   display: flex;
   align-items: center;
@@ -102,6 +68,37 @@
   height: 1px;
 
   background: linear-gradient(to right, #c8b273, transparent);
+}
+
+.cta-button {
+  display: inline-block;
+
+  background: linear-gradient(135deg, #c8102e 0%, #a90d26 100%);
+
+  color: white;
+  text-decoration: none;
+
+  padding: 1rem 2.8rem;
+
+  border-radius: 999px;
+
+  font-size: 0.95rem;
+  font-weight: 800;
+  letter-spacing: 0.4px;
+
+  box-shadow: 0 8px 20px rgba(200, 16, 46, 0.2);
+
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background: linear-gradient(135deg, #b30f2a 0%, #930b21 100%);
+
+  color: white;
+
+  transform: translateY(-4px);
+
+  box-shadow: 0 14px 30px rgba(200, 16, 46, 0.3);
 }
 
 @media (max-width: 900px) {

@@ -1,6 +1,7 @@
 import Navbar from "../../components/Navbar/Navbar.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 import pricing from "../../assets/images/pricing.jpeg";
+import { Link } from "react-router-dom";
 import { FaCheck } from "react-icons/fa";
 import "./Pricing.css";
 
@@ -101,13 +102,11 @@ const Pricing = () => {
 
         <section className="trial-section">
           <h2>Free trial lesson</h2>
-
           <p>
             You can start with a free trial lesson.
             <br />
             In this session:
           </p>
-
           <div className="pricing-list">
             <div className="pricing-item">
               <div className="benefit-icon">
@@ -133,8 +132,9 @@ const Pricing = () => {
           <p className="trial-note">
             This helps you see how the lessons work before committing.
           </p>
-
-          <button>Book a Free Trial Lesson</button>
+          <Link to="/contact" className="cta-button">
+            Book a Free Trial Lesson
+          </Link>{" "}
         </section>
       </main>
 

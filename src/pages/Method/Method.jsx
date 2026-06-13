@@ -1,5 +1,6 @@
 import Navbar from "../../components/Navbar/Navbar.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
+import { Link } from "react-router-dom";
 import { FaUniversity, FaUserGraduate, FaBookOpen } from "react-icons/fa";
 import "./Method.css";
 
@@ -95,7 +96,9 @@ const Method = () => {
         </section>
 
         <section className="method-cta">
-          <button>Book your Free Trial Lesson!</button>
+          <Link to="/contact" className="cta-button">
+            Book a Free Trial Lesson
+          </Link>{" "}
         </section>
       </main>
 

@@ -159,7 +159,7 @@
   margin-bottom: 2.5rem;
 }
 
-.method-cta button {
+.cta-button {
   background: linear-gradient(135deg, #c8102e 0%, #a90d26 100%);
   color: white;
 
@@ -175,7 +175,7 @@
   box-shadow: 0 8px 20px rgba(200, 16, 46, 0.2);
 }
 
-.method-cta button:hover {
+.cta-button:hover {
   background: linear-gradient(135deg, #b30f2a 0%, #930b21 100%);
   color: white;
 
@@ -183,7 +183,7 @@
   box-shadow: 0 14px 30px rgba(200, 16, 46, 0.3);
 }
 
-.method-cta button:active {
+.cta-button:active {
   transform: translateY(-1px);
 }
 

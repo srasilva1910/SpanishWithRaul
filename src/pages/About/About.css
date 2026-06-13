@@ -13,6 +13,37 @@
   padding: 5rem 9%;
 }
 
+.cta-button {
+  display: inline-block;
+
+  background: linear-gradient(135deg, #c8102e 0%, #a90d26 100%);
+
+  color: white;
+  text-decoration: none;
+
+  padding: 1rem 2.8rem;
+
+  border-radius: 999px;
+
+  font-size: 0.95rem;
+  font-weight: 800;
+  letter-spacing: 0.4px;
+
+  box-shadow: 0 8px 20px rgba(200, 16, 46, 0.2);
+
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background: linear-gradient(135deg, #b30f2a 0%, #930b21 100%);
+
+  color: white;
+
+  transform: translateY(-4px);
+
+  box-shadow: 0 14px 30px rgba(200, 16, 46, 0.3);
+}
+
 .about-image {
   display: flex;
   justify-content: left;
@@ -61,32 +92,6 @@
   line-height: 1.85;
 
   margin-bottom: 1.5rem;
-}
-
-.about-content button {
-  margin-top: 1.5rem;
-
-  background: linear-gradient(135deg, #c8102e 0%, #a90d26 100%);
-  color: white;
-
-  padding: 1rem 2.8rem;
-
-  border: none;
-  border-radius: 999px;
-
-  font-size: 0.95rem;
-  font-weight: 800;
-  letter-spacing: 0.4px;
-
-  box-shadow: 0 8px 20px rgba(200, 16, 46, 0.2);
-}
-
-.about-content button:hover {
-  background: linear-gradient(135deg, #b30f2a 0%, #930b21 100%);
-  color: white;
-
-  transform: translateY(-4px);
-  box-shadow: 0 14px 30px rgba(200, 16, 46, 0.3);
 }
 
 @media (max-width: 900px) {
