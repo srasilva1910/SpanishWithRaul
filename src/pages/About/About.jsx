@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import Navbar from "../../components/Navbar/Navbar.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
-import raul from "../../assets/images/raulramirez.jpg";
+import raul from "../../assets/images/raulramirez.jpeg";
 import "./About.css";
 
 const About = () => {
