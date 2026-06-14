@@ -15,6 +15,10 @@ const Pricing = () => {
           name="description"
           content="Explore online Spanish courses, lesson packages and a free trial lesson with Raul Ramirez, a PhD Spanish professor from UNAM."
         />
+        <link
+  rel="canonical"
+  href="https://spanishwithraul.com/pricing"
+/>
       </Helmet>
       <Navbar />
 

@@ -18,6 +18,7 @@ const Home = () => {
           name="description"
           content="Structured online Spanish lessons based on CEFR and university programs. Learn with a PhD Spanish professor from UNAM."
         />
+        <link rel="canonical" href="https://spanishwithraul.com/" />
       </Helmet>
 
       <Navbar />

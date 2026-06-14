@@ -14,6 +14,7 @@ const About = () => {
           name="description"
           content="Learn about Raul Ramirez, a Spanish professor with a PhD from UNAM and more than twenty years of experience teaching language, literature and academic writing."
         />
+        <link rel="canonical" href="https://spanishwithraul.com/about" />
       </Helmet>
       <Navbar />
 
