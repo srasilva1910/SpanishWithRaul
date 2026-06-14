@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Helmet } from "react-helmet-async";
 import emailjs from "@emailjs/browser";
 import Navbar from "../../components/Navbar/Navbar.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
@@ -46,6 +47,13 @@ const Contact = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Contact Raul Ramirez | Free Trial Spanish Lesson</title>
+        <meta
+          name="description"
+          content="Contact Raul Ramirez to book a free trial Spanish lesson and receive a personalized learning plan based on your goals and level."
+        />
+      </Helmet>
       <Navbar />
 
       <main className="contact-page">

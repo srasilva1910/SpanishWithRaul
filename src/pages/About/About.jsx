@@ -1,12 +1,20 @@
+import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import Navbar from "../../components/Navbar/Navbar.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
-import { Link } from "react-router-dom";
 import raul from "../../assets/images/raulramirez.jpg";
 import "./About.css";
 
 const About = () => {
   return (
     <>
+      <Helmet>
+        <title>About Raul Ramirez | PhD Spanish Professor</title>
+        <meta
+          name="description"
+          content="Learn about Raul Ramirez, a Spanish professor with a PhD from UNAM and more than twenty years of experience teaching language, literature and academic writing."
+        />
+      </Helmet>
       <Navbar />
 
       <main className="about">

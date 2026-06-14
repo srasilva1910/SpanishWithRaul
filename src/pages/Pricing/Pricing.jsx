@@ -1,13 +1,21 @@
+import { Link } from "react-router-dom";
+import { FaCheck } from "react-icons/fa";
+import { Helmet } from "react-helmet-async";
 import Navbar from "../../components/Navbar/Navbar.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 import pricing from "../../assets/images/pricing.jpeg";
-import { Link } from "react-router-dom";
-import { FaCheck } from "react-icons/fa";
 import "./Pricing.css";
 
 const Pricing = () => {
   return (
     <>
+      <Helmet>
+        <title>Spanish Courses and Pricing | Spanish With Raul</title>
+        <meta
+          name="description"
+          content="Explore online Spanish courses, lesson packages and a free trial lesson with Raul Ramirez, a PhD Spanish professor from UNAM."
+        />
+      </Helmet>
       <Navbar />
 
       <main className="pricing-page">

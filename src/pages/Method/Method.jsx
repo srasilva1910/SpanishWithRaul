@@ -1,12 +1,20 @@
+import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
+import { FaUniversity, FaUserGraduate, FaBookOpen } from "react-icons/fa";
 import Navbar from "../../components/Navbar/Navbar.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
-import { Link } from "react-router-dom";
-import { FaUniversity, FaUserGraduate, FaBookOpen } from "react-icons/fa";
 import "./Method.css";
 
 const Method = () => {
   return (
     <>
+      <Helmet>
+        <title>Spanish Teaching Method | CEFR-Based Learning</title>
+        <meta
+          name="description"
+          content="Discover a structured Spanish learning method based on CEFR levels, UNAM academic programs and personalized one-on-one instruction."
+        />
+      </Helmet>
       <Navbar />
 
       <main className="method">
