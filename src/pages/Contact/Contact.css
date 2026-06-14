@@ -244,6 +244,14 @@
   line-height: 1.8;
 }
 
+.form-status {
+  margin-top: 1rem;
+
+  color: var(--green);
+
+  font-weight: 600;
+}
+
 @media (max-width: 900px) {
   .contact-container {
     grid-template-columns: 1fr;

@@ -1,8 +1,49 @@
+import { useState } from "react";
+import emailjs from "@emailjs/browser";
 import Navbar from "../../components/Navbar/Navbar.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 import "./Contact.css";
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    user_name: "",
+    user_email: "",
+    message: "",
+  });
+
+  const [status, setStatus] = useState("");
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      await emailjs.send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        formData,
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+      );
+      setStatus("Message sent successfully!");
+
+      setFormData({
+        user_name: "",
+        user_email: "",
+        message: "",
+      });
+    } catch (error) {
+      console.error(error);
+
+      setStatus("Something went wrong. Please try again.");
+    }
+  };
+
   return (
     <>
       <Navbar />
@@ -21,8 +62,6 @@ const Contact = () => {
 
         <section className="contact-container">
           <div className="contact-info">
-            <img src="/raul.jpg" alt="Raúl Ramírez" className="contact-photo" />
-
             <h2>Raúl Ramírez</h2>
             <p className="contact-role">Spanish Professor</p>
 
@@ -44,16 +83,39 @@ const Contact = () => {
             </div>
           </div>
 
-          <form className="contact-form">
+          <form className="contact-form" onSubmit={handleSubmit}>
             <h2>Send a Message</h2>
 
-            <input type="text" placeholder="Your name" />
+            <input
+              type="text"
+              name="user_name"
+              placeholder="Your name"
+              value={formData.user_name}
+              onChange={handleChange}
+              required
+            />
 
-            <input type="email" placeholder="Your email" />
+            <input
+              type="email"
+              name="user_email"
+              placeholder="Your email"
+              value={formData.user_email}
+              onChange={handleChange}
+              required
+            />
 
-            <textarea rows="6" placeholder="Tell me about your goals..." />
+            <textarea
+              rows="6"
+              name="message"
+              placeholder="How can I help you?"
+              value={formData.message}
+              onChange={handleChange}
+              required
+            />
 
             <button type="submit">Send Message</button>
+
+            {status && <p className="form-status">{status}</p>}
           </form>
         </section>
       </main>
