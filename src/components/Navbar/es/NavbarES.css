@@ -123,7 +123,7 @@
   color: var(--green);
 }
 
-.language-menu a {
+.language-menu button {
   width: 100%;
 
   background: #298865ef;
@@ -134,12 +134,9 @@
 
   font-size: 0.9rem;
   text-align: left;
-  text-decoration: none;
-
-  display: block;
 }
 
-.language-menu a:hover {
+.language-menu button:hover {
   background: #f5f2eb;
   transform: none;
   box-shadow: none;

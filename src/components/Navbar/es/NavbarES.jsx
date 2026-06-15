@@ -44,9 +44,9 @@ const Navbar = () => {
           <button className="language-btn">🇺🇸 EN ▾</button>
 
           <div className="language-menu">
-            <Link to="/">🇺🇸 EN</Link>
-            <Link to="/es">🇲🇽 ES</Link>
-            <Link to="/pt">🇧🇷 PT</Link>{" "}
+            <button>🇺🇸 EN</button>
+            <button>🇲🇽 ES</button>
+            <button>🇧🇷 PT</button>
           </div>
         </div>
       </div>

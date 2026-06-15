@@ -1,6 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import Home from "./pages/Home/Home.jsx";
+import HomePT from "./pages/Home/pt/HomePT.jsx";
+import HomeES from "./pages/Home/es/HomeES.jsx";
 import About from "./pages/About/About.jsx";
 import Method from "./pages/Method/Method.jsx";
 import Pricing from "./pages/Pricing/Pricing.jsx";
@@ -17,6 +19,10 @@ function App() {
         <Route path="/method" element={<Method />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/contact" element={<Contact />} />
+
+        <Route path="/es" element={<HomeES />} />
+
+        <Route path="/pt" element={<HomePT />} />
       </Routes>
     </BrowserRouter>
   );
