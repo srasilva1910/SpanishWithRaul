@@ -3,7 +3,7 @@ import { FaCheck } from "react-icons/fa";
 import { Helmet } from "react-helmet-async";
 import Navbar from "../../components/Navbar/Navbar.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
-import pricing from "../../assets/images/pricing.jpeg";
+import pricing from "../../../assets/images/pricing.jpeg";
 import "./Pricing.css";
 
 const Pricing = () => {
@@ -15,10 +15,7 @@ const Pricing = () => {
           name="description"
           content="Explore online Spanish courses, lesson packages and a free trial lesson with Raul Ramirez, a PhD Spanish professor from UNAM."
         />
-        <link
-  rel="canonical"
-  href="https://spanishwithraul.com/pricing"
-/>
+        <link rel="canonical" href="https://spanishwithraul.com/pricing" />
       </Helmet>
       <Navbar />
 

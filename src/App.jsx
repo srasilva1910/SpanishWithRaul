@@ -1,17 +1,23 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ScrollToTop from "./components/ScrollToTop";
-import Home from "./pages/Home/Home.jsx";
-import HomePT from "./pages/Home/pt/HomePT.jsx";
-import HomeES from "./pages/Home/es/HomeES.jsx";
-import About from "./pages/About/About.jsx";
-import Method from "./pages/Method/Method.jsx";
-import Pricing from "./pages/Pricing/Pricing.jsx";
-import Contact from "./pages/Contact/Contact.jsx";
+import ScrollToTop from "./en/components/ScrollToTop";
+import Home from "./en/pages/Home/Home.jsx";
+import About from "./en/pages/About/About.jsx";
+import Method from "./en/pages/Method/Method.jsx";
+import Pricing from "./en/pages/Pricing/Pricing.jsx";
+import Contact from "./en/pages/Contact/Contact.jsx";
+
+import ScrollToTopES from "./es/componentsES/ScrollToTopES";
+import HomeES from "./es/pagesES/HomeES/HomeES.jsx";
+import AboutES from "./es/pagesES/AboutES/AboutES.jsx";
+import MethodES from "./es/pagesES/MethodES/MethodES.jsx";
+import PricingES from "./es/pagesES/PricingES/PricingES.jsx";
+import ContactES from "./es/pagesES/ContactES/ContactES.jsx";
 
 function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
+      <ScrollToTopES />
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -21,8 +27,10 @@ function App() {
         <Route path="/contact" element={<Contact />} />
 
         <Route path="/es" element={<HomeES />} />
-
-        <Route path="/pt" element={<HomePT />} />
+        <Route path="/es/about" element={<AboutES />} />
+        <Route path="/es/method" element={<MethodES />} />
+        <Route path="/es/pricing" element={<PricingES />} />
+        <Route path="/es/contact" element={<ContactES />} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Hero.css";
-import raul from "../../assets/images/raulramirez.jpeg";
+import raul from "../../../assets/images/raulramirez.jpeg";
 
 const Hero = () => {
   return (
