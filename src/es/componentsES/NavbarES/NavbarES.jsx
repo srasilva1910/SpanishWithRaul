@@ -42,7 +42,7 @@ const NavbarES = () => {
         </div>
 
         <div className="language-dropdown">
-          <button className="language-btn">🇺🇸 EN ▾</button>
+          <button className="language-btn">🇲🇽 ES ▾</button>
 
           <div className="language-menu">
             <Link to="/">🇺🇸 EN</Link>
