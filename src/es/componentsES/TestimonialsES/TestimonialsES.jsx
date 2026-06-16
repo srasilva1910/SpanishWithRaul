@@ -1,5 +1,5 @@
 import { FaQuoteLeft } from "react-icons/fa";
-import "./Testimonials.css";
+import "./TestimonialsES.css";
 
 const testimonials = [
   {
@@ -24,7 +24,7 @@ const testimonials = [
   },
 ];
 
-const Testimonials = () => {
+const TestimonialsES = () => {
   return (
     <section className="testimonials">
       {testimonials.map((review, index) => (
@@ -41,11 +41,11 @@ const Testimonials = () => {
 
           <h4>{review.name}</h4>
 
-          <span>Read full testimonial →</span>
+          <span>Leer opinión completa →</span>
         </a>
       ))}
     </section>
   );
 };
 
-export default Testimonials;
+export default TestimonialsES;

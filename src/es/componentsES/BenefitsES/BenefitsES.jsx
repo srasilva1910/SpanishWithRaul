@@ -4,35 +4,35 @@ import "./BenefitsES.css";
 const BenefitsES = () => {
   return (
     <section className="benefits">
-      <h2>When you study with me, you will have:</h2>
+      <h2>Cuando estudias conmigo, tendrás:</h2>
 
       <div className="benefits-list">
         <div className="benefit-item">
           <div className="benefit-icon">
             <FaCheck />
           </div>
-          <p>Structured university-level training</p>
+          <p>Formación estructurada de nivel universitario</p>
         </div>
 
         <div className="benefit-item">
           <div className="benefit-icon">
             <FaCheck />
           </div>
-          <p>Lessons tailored to your goals</p>
+          <p>Clases adaptadas a tus objetivos</p>
         </div>
 
         <div className="benefit-item">
           <div className="benefit-icon">
             <FaCheck />
           </div>
-          <p>Regular assessments and feedback</p>
+          <p>Evaluaciones periódicas y retroalimentación</p>
         </div>
 
         <div className="benefit-item">
           <div className="benefit-icon">
             <FaCheck />
           </div>
-          <p>All materials included</p>
+          <p>Todos los materiales incluidos</p>
         </div>
       </div>
     </section>

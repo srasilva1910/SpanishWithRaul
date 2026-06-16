@@ -62,11 +62,6 @@ const Contact = () => {
           <h1>Contact</h1>
 
           <div className="contact-divider"></div>
-
-          <p>
-            Ready to improve your Spanish with a structured, personalized
-            learning experience?
-          </p>
         </section>
 
         <section className="contact-container">

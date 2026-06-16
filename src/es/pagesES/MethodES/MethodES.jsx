@@ -9,24 +9,25 @@ const MethodES = () => {
   return (
     <>
       <Helmet>
-        <title>Spanish Teaching Method | CEFR-Based Learning</title>
+        <title>Método de Enseñanza del Español | Spanish With Raul</title>
         <meta
           name="description"
-          content="Discover a structured Spanish learning method based on CEFR levels, UNAM academic programs and personalized one-on-one instruction."
+          content="Aprende español con un método estructurado basado en los niveles MCER (A1–C2) y en los programas académicos de la UNAM. Clases personalizadas, materiales incluidos y clase de prueba gratuita."
         />
-        <link rel="canonical" href="https://spanishwithraul.com/method" />
+        <link rel="canonical" href="https://spanishwithraul.com/es/metodo" />
       </Helmet>
       <NavbarES />
 
       <main className="method">
         <section className="method-intro">
-          <h1>Method</h1>
+          <h1>Método</h1>
 
           <div className="method-divider"></div>
 
           <p>
-            My Spanish courses combine the structure of a university language
-            program with the flexibility of one-on-one instruction.
+            Mis cursos de español combinan la estructura de un programa
+            universitario de idiomas con la flexibilidad de la enseñanza
+            personalizada.{" "}
           </p>
         </section>
 
@@ -37,25 +38,27 @@ const MethodES = () => {
             </div>
 
             <div>
-              <h2>Structured Learning</h2>
+              <h2>Aprendizaje estructurado</h2>
 
               <p>
-                Every student follows a clear learning path based on the CEFR
-                levels (A1–C2).
+                Cada estudiante sigue una ruta de aprendizaje clara basada en
+                los niveles del Marco Común Europeo de Referencia para las
+                Lenguas (MCER) (A1–C2).
               </p>
 
               <p>
-                My courses and materials are based on the academic Spanish
-                programs of the National Autonomous University of Mexico (UNAM),
-                providing a structured and academically solid foundation for
-                your learning.
+                Mis cursos y materiales se basan en los programas académicos de
+                español de la Universidad Nacional Autónoma de México (UNAM), lo
+                que proporciona una base estructurada y académicamente sólida
+                para tu aprendizaje.
               </p>
 
               <p>
-                Before starting, I assess your level and create a learning plan
-                tailored to your needs. Throughout the course, we monitor your
-                progress and use regular feedback to help you move confidently
-                from one level to the next.
+                Antes de comenzar, evalúo tu nivel y diseño un plan de
+                aprendizaje adaptado a tus necesidades. A lo largo del curso,
+                supervisamos tu progreso y utilizamos retroalimentación
+                periódica para ayudarte a avanzar con confianza de un nivel al
+                siguiente.{" "}
               </p>
             </div>
           </article>
@@ -66,18 +69,19 @@ const MethodES = () => {
             </div>
 
             <div>
-              <h2>Personalized Instruction</h2>
+              <h2>Enseñanza personalizada</h2>
 
               <p>
-                While the learning path is structured, every course is adapted
-                to the individual student.
+                Aunque la ruta de aprendizaje es estructurada, cada curso se
+                adapta a las necesidades individuales de cada estudiante.
               </p>
 
               <p>
-                Lessons can be tailored to professional communication, academic
-                Spanish, DELE examination preparation, heritage Spanish,
-                cultural enrichment, travel, or any combination of these areas,
-                depending on your goals and needs.
+                Las clases pueden orientarse a la comunicación profesional, el
+                español académico, la preparación para el examen DELE, el
+                español de herencia, el enriquecimiento cultural, los viajes o
+                cualquier combinación de estas áreas, según tus objetivos y
+                necesidades.{" "}
               </p>
             </div>
           </article>
@@ -88,17 +92,18 @@ const MethodES = () => {
             </div>
 
             <div>
-              <h2>Materials and Trial Lesson</h2>
+              <h2>Materiales y clase de prueba</h2>
 
               <p>
-                All students receive digital textbooks and course materials at
-                no additional cost.
+                Todos los estudiantes reciben libros digitales y materiales de
+                estudio sin costo adicional.
               </p>
 
               <p>
-                You can begin with a free trial lesson, during which I will
-                assess your current level, discuss your goals, and explain the
-                learning plan that best fits your needs.
+                Puedes comenzar con una clase de prueba gratuita, durante la
+                cual evaluaré tu nivel actual, conversaremos sobre tus objetivos
+                y te explicaré el plan de aprendizaje que mejor se adapte a tus
+                necesidades.
               </p>
             </div>
           </article>
@@ -106,7 +111,7 @@ const MethodES = () => {
 
         <section className="method-cta">
           <Link to="/contact" className="cta-button">
-            Book a Free Trial Lesson
+            Reserva una clase de prueba gratuita{" "}
           </Link>{" "}
         </section>
       </main>

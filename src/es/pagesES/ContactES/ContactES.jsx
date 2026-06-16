@@ -31,7 +31,7 @@ const ContactES = () => {
         formData,
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
       );
-      setStatus("Message sent successfully!");
+      setStatus("Mensaje enviado con éxito!");
 
       setFormData({
         user_name: "",
@@ -41,32 +41,27 @@ const ContactES = () => {
     } catch (error) {
       console.error(error);
 
-      setStatus("Something went wrong. Please try again.");
+      setStatus("Por favor, inténtalo otra vez.");
     }
   };
 
   return (
     <>
       <Helmet>
-        <title>Contact Raul Ramirez | Free Trial Spanish Lesson</title>
+        <title> Contacto | Spanish With Raul</title>
         <meta
           name="description"
-          content="Contact Raul Ramirez to book a free trial Spanish lesson and receive a personalized learning plan based on your goals and level."
+          content="Ponte en contacto con Raúl Ramírez para reservar una clase de prueba gratuita y recibir un plan de aprendizaje personalizado según tus objetivos y nivel."
         />
-        <link rel="canonical" href="https://spanishwithraul.com/contact" />
+        <link rel="canonical" href="https://spanishwithraul.com/es/contacto" />
       </Helmet>
       <NavbarES />
 
       <main className="contact-page">
         <section className="contact-intro">
-          <h1>Contact</h1>
+          <h1>Contacto</h1>
 
           <div className="contact-divider"></div>
-
-          <p>
-            Ready to improve your Spanish with a structured, personalized
-            learning experience?
-          </p>
         </section>
 
         <section className="contact-container">
@@ -93,12 +88,12 @@ const ContactES = () => {
           </div>
 
           <form className="contact-form" onSubmit={handleSubmit}>
-            <h2>Send a Message</h2>
+            <h2>Enviar mensaje</h2>
 
             <input
               type="text"
               name="user_name"
-              placeholder="Your name"
+              placeholder="Nombre"
               value={formData.user_name}
               onChange={handleChange}
               required
@@ -107,7 +102,7 @@ const ContactES = () => {
             <input
               type="email"
               name="user_email"
-              placeholder="Your email"
+              placeholder="E-mail"
               value={formData.user_email}
               onChange={handleChange}
               required
@@ -116,13 +111,13 @@ const ContactES = () => {
             <textarea
               rows="6"
               name="message"
-              placeholder="How can I help you?"
+              placeholder="Como te puedo ayudar?"
               value={formData.message}
               onChange={handleChange}
               required
             />
 
-            <button type="submit">Send Message</button>
+            <button type="submit">Enviar mensaje</button>
 
             {status && <p className="form-status">{status}</p>}
           </form>

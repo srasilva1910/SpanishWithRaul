@@ -11,8 +11,9 @@ const FooterES = () => {
         <h2>Spanish With Raul</h2>
 
         <p>
-          University-level Spanish lessons with the attention of a private
-          tutor.
+          La estructura de un curso universitario.
+          <br />
+          La atención de un profesor particular.
         </p>
 
         <div className="footer-socials">
@@ -31,8 +32,7 @@ const FooterES = () => {
       </div>
 
       <p className="footer-copy">
-        © 2026 Spanish With Raul · PhD in Hispanic Language and Literature
-        (UNAM)
+        © 2026 · Raul Ramirez · Doctor en Letras Hispanicas por la UNAM
       </p>
     </footer>
   );

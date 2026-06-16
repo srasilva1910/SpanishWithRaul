@@ -9,12 +9,14 @@ const AboutES = () => {
   return (
     <>
       <Helmet>
-        <title>About Raul Ramirez | PhD Spanish Professor</title>
+        <title>
+          Sobre Raúl Ramírez | Profesor de Español con Doctorado por la UNAM
+        </title>
         <meta
           name="description"
-          content="Learn about Raul Ramirez, a Spanish professor with a PhD from UNAM and more than twenty years of experience teaching language, literature and academic writing."
+          content="Conoce a Raúl Ramírez, profesor de español con doctorado por la UNAM y más de veinte años de experiencia en enseñanza, literatura y comunicación."
         />
-        <link rel="canonical" href="https://spanishwithraul.com/about" />
+        <link rel="canonical" href="https://spanishwithraul.com/es/sobre-mi" />
       </Helmet>
       <NavbarES />
 
@@ -23,46 +25,46 @@ const AboutES = () => {
           <div className="about-image">
             <img
               src={raul}
-              alt="Raul Ramirez, Spanish professor with
-              a PhD in Hispanic Language and Literature from the National
-              Autonomous University of Mexico (UNAM)"
+              alt="Raul Ramirez, Profesor de Español con Doctorado por la UNAM"
             />
           </div>
 
           <div className="about-content">
-            <h1>About me</h1>
+            <h1>Sobre mí</h1>
             <div className="about-divider"></div>
             <p>
-              Hello, I'm Raúl Ramírez, a Spanish professor from Mexico City with
-              a PhD in Hispanic Language and Literature from the National
-              Autonomous University of Mexico (UNAM).
+              Hola, soy Raúl Ramírez, profesor de español de la Ciudad de México
+              y doctor en Lengua y Literatura Hispánicas por la Universidad
+              Nacional Autónoma de México (UNAM).{" "}
             </p>
             <p>
-              For more than two decades, I have taught language, literature,
-              communication, and academic writing at universities in Mexico and
-              Brazil, including the University of São Paulo, one of the leading
-              universities in Latin America.
+              Durante más de dos décadas he impartido cursos de lengua,
+              literatura, comunicación y redacción académica en universidades de
+              México y Brasil, incluyendo la Universidad de São Paulo, una de
+              las instituciones de educación superior más prestigiosas de
+              América Latina.
             </p>
             <p>
-              My academic work has focused on language, literature, rhetoric,
-              and communication. Throughout the years, I have become
-              increasingly interested in a question that also lies at the heart
-              of language learning: how people understand, interpret, and
-              express ideas clearly.
+              Mi trabajo académico se ha centrado en el estudio de la lengua, la
+              literatura, la retórica y la comunicación. Con el paso de los
+              años, me ha interesado cada vez más una pregunta que también se
+              encuentra en el centro del aprendizaje de idiomas: cómo las
+              personas comprenden, interpretan y expresan ideas con claridad.
             </p>
             <p>
-              Teaching Spanish allows me to bring together these interests. I
-              enjoy helping students not only communicate in Spanish, but also
-              understand how the language works and develop confidence in using
-              it effectively.
+              La enseñanza del español me permite integrar todos estos
+              intereses. Disfruto ayudando a mis estudiantes no solo a
+              comunicarse en español, sino también a comprender cómo funciona el
+              idioma y a desarrollar la confianza necesaria para utilizarlo de
+              manera efectiva.
             </p>
             <p>
-              Today, I work primarily with professionals and university students
-              who are looking for a structured, thoughtful, and personalized
-              approach to learning Spanish.
+              Actualmente trabajo principalmente con profesionales y estudiantes
+              universitarios que buscan un enfoque estructurado, reflexivo y
+              personalizado para aprender español.
             </p>
             <Link to="/contact" className="cta-button">
-              Book a Free Trial Lesson
+              Reserva una clase de prueba gratuita{" "}
             </Link>{" "}
           </div>
         </section>

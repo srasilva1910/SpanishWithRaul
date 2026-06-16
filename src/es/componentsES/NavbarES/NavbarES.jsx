@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from "../../../assets/images/logo.jpeg";
 import "./NavbarES.css";
 
 const NavbarES = () => {
@@ -9,8 +10,9 @@ const NavbarES = () => {
 
   return (
     <nav className="navbar">
-      <h1>Spanish With Raul</h1>
-
+      <Link to="/" className="logo">
+        <img src={logo} alt="Spanish With Raul" />
+      </Link>{" "}
       <button
         className={`menu-toggle ${menuOpen ? "active" : ""}`}
         onClick={() => setMenuOpen(!menuOpen)}
@@ -20,23 +22,22 @@ const NavbarES = () => {
         <span></span>
         <span></span>
       </button>
-
       <div className={`navbar-right ${menuOpen ? "open" : ""}`}>
         <div className="links">
           <Link to="/es" onClick={closeMenu}>
-            Home
+            Inicio
           </Link>
-          <Link to="/es/about" onClick={closeMenu}>
-            About Me
+          <Link to="/es/sobre-mi" onClick={closeMenu}>
+            Sobre mí
           </Link>
-          <Link to="/es/method" onClick={closeMenu}>
-            Method
+          <Link to="/es/metodo" onClick={closeMenu}>
+            Método
           </Link>
-          <Link to="/es/pricing" onClick={closeMenu}>
-            Courses & Pricing
+          <Link to="/es/precios" onClick={closeMenu}>
+            Cursos y Precios
           </Link>
-          <Link to="/es/contact" onClick={closeMenu}>
-            Contact
+          <Link to="/es/contacto" onClick={closeMenu}>
+            Contacto
           </Link>
         </div>
 

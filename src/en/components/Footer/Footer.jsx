@@ -31,8 +31,7 @@ const Footer = () => {
       </div>
 
       <p className="footer-copy">
-        © 2026 Spanish With Raul · PhD in Hispanic Language and Literature
-        (UNAM)
+        © 2026 · Raul Ramirez · PhD in Hispanic Language and Literature (UNAM)
       </p>
     </footer>
   );

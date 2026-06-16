@@ -1,6 +1,6 @@
 import NavbarES from "../../componentsES/NavbarES/NavbarES.jsx";
 import HeroES from "../../componentsES/HeroES/HeroES.jsx";
-import Testimonials from "../../componentsES/Testimonials/Testimonials.jsx";
+import TestimonialsES from "../../componentsES/TestimonialsES/TestimonialsES.jsx";
 import BenefitsES from "../../componentsES/BenefitsES/BenefitsES.jsx";
 import CTAES from "../../componentsES/CTAES/CTAES.jsx";
 import FooterES from "../../componentsES/FooterES/FooterES.jsx";
@@ -18,12 +18,12 @@ const HomeES = () => {
           name="description"
           content="Structured online Spanish lessons based on CEFR and university programs. Learn with a PhD Spanish professor from UNAM."
         />
-        <link rel="canonical" href="https://spanishwithraul.com/" />
+        <link rel="canonical" href="https://spanishwithraul.com/es" />
       </Helmet>
 
       <NavbarES />
       <HeroES />
-      <Testimonials />
+      <TestimonialsES />
       <BenefitsES />
       <CTAES />
       <FooterES />

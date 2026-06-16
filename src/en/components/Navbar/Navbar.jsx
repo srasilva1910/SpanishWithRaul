@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from "../../../assets/images/logo.jpeg";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -9,7 +10,9 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <h1>Spanish With Raul</h1>
+      <Link to="/" className="logo">
+        <img src={logo} alt="Spanish With Raul" />
+      </Link>
 
       <button
         className={`menu-toggle ${menuOpen ? "active" : ""}`}

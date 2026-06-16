@@ -5,7 +5,7 @@ const CTAES = () => {
   return (
     <section className="cta">
       <Link to="/contact" className="cta-button">
-        Book a Free Trial Lesson
+        Reserva una clase de prueba gratuita{" "}
       </Link>{" "}
     </section>
   );

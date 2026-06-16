@@ -3,86 +3,85 @@ import { FaCheck } from "react-icons/fa";
 import { Helmet } from "react-helmet-async";
 import NavbarES from "../../componentsES/NavbarES/NavbarES.jsx";
 import FooterES from "../../componentsES/FooterES/FooterES.jsx";
-import pricing from "../../../assets/images/pricing.jpeg";
+import pricing from "../../../assets/images/pricingES.jpeg";
 import "./PricingES.css";
 
 const PricingES = () => {
   return (
     <>
       <Helmet>
-        <title>Spanish Courses and Pricing | Spanish With Raul</title>
+        <title> Cursos y Precios | Spanish With Raul</title>
         <meta
           name="description"
-          content="Explore online Spanish courses, lesson packages and a free trial lesson with Raul Ramirez, a PhD Spanish professor from UNAM."
+          content="Descubre los cursos de español, paquetes de clases y clase de prueba gratuita con Raúl Ramírez. Aprendizaje estructurado, materiales incluidos y seguimiento personalizado."
         />
-        <link rel="canonical" href="https://spanishwithraul.com/pricing" />
+        <link rel="canonical" href="https://spanishwithraul.com/es/precios" />
       </Helmet>
       <NavbarES />
 
       <main className="pricing-page">
         <section className="pricing-intro">
-          <h1>Courses and Pricing</h1>
+          <h1>Cursos y Precios</h1>
 
           <div className="pricing-divider"></div>
 
           <p className="pricing-subtitle">
-            Clear structure. Personalized lessons. Real progress.
+            Estructura clara. Clases personalizadas. Progreso real.{" "}
           </p>
 
           <div className="pricing-includes">
-            <p>All lessons include:</p>
+            <p>Todas las clases incluyen:</p>
             <div className="pricing-list">
               <div className="pricing-item">
                 <div className="benefit-icon">
                   <FaCheck />
                 </div>
-                <p>Structured lessons based on CEFR levels</p>
+                <p>Clases estructuradas basadas en los niveles del MCER</p>
               </div>
 
               <div className="pricing-item">
                 <div className="benefit-icon">
                   <FaCheck />
                 </div>
-                <p>Personalized learning plan</p>
+                <p>Plan de aprendizaje personalizado</p>
               </div>
 
               <div className="pricing-item">
                 <div className="benefit-icon">
                   <FaCheck />
                 </div>
-                <p>Digital textbooks and materials</p>
+                <p>Libros digitales y materiales de estudio</p>
               </div>
 
               <div className="pricing-item">
                 <div className="benefit-icon">
                   <FaCheck />
                 </div>
-                <p>Level assessment</p>
+                <p>Evaluación de nivel</p>
               </div>
 
               <div className="pricing-item">
                 <div className="benefit-icon">
                   <FaCheck />
                 </div>
-                <p>Progress tracking and feedback</p>
+                <p>Seguimiento del progreso y retroalimentación</p>
               </div>
             </div>{" "}
           </div>
         </section>
 
         <section className="courses-image-section">
-          <h2>Courses</h2>
+          <h2>Cursos</h2>
 
           <img src={pricing} alt="Spanish course packages and pricing" />
         </section>
 
         <section className="packages-section">
-          <h2>Why packages?</h2>
+          <h2>¿Por qué elegir un paquete?</h2>
 
           <p>
-            Learning Spanish requires consistency.
-            <br />
-            Packages help you:
+            Aprender español requiere constancia. <br />
+            Los paquetes te ayudan a:{" "}
           </p>
 
           <div className="pricing-list">
@@ -90,59 +89,59 @@ const PricingES = () => {
               <div className="benefit-icon">
                 <FaCheck />
               </div>
-              <p>Build a regular learning routine</p>
+              <p>Crear una rutina de aprendizaje regular</p>
             </div>
 
             <div className="pricing-item">
               <div className="benefit-icon">
                 <FaCheck />
               </div>
-              <p>Follow a structured plan</p>
+              <p>Seguir un plan estructurado</p>
             </div>
 
             <div className="pricing-item">
               <div className="benefit-icon">
                 <FaCheck />
               </div>
-              <p>See real progress over time</p>
+              <p>Ver un progreso real a lo largo del tiempo</p>
             </div>
           </div>
         </section>
 
         <section className="trial-section">
-          <h2>Free trial lesson</h2>
+          <h2>Clase de prueba gratuita</h2>
           <p>
-            You can start with a free trial lesson.
-            <br />
-            In this session:
+            Puedes comenzar con una clase de prueba gratuita. <br />
+            Durante esta sesión:{" "}
           </p>
           <div className="pricing-list">
             <div className="pricing-item">
               <div className="benefit-icon">
                 <FaCheck />
               </div>
-              <p>I evaluate your level</p>
+              <p>Evalúo tu nivel</p>
             </div>
 
             <div className="pricing-item">
               <div className="benefit-icon">
                 <FaCheck />
               </div>
-              <p>I understand your goals</p>
+              <p>Conozco tus objetivos</p>
             </div>
 
             <div className="pricing-item">
               <div className="benefit-icon">
                 <FaCheck />
               </div>
-              <p>I explain your learning plan</p>
+              <p>Te explico tu plan de aprendizaje</p>
             </div>
           </div>
           <p className="trial-note">
-            This helps you see how the lessons work before committing.
+            Esto te permite comprender cómo funcionan las clases antes de tomar
+            una decisión.{" "}
           </p>
           <Link to="/contact" className="cta-button">
-            Book a Free Trial Lesson
+            Reserva una clase de prueba gratuita
           </Link>{" "}
         </section>
       </main>

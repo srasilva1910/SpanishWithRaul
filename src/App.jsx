@@ -27,10 +27,10 @@ function App() {
         <Route path="/contact" element={<Contact />} />
 
         <Route path="/es" element={<HomeES />} />
-        <Route path="/es/about" element={<AboutES />} />
-        <Route path="/es/method" element={<MethodES />} />
-        <Route path="/es/pricing" element={<PricingES />} />
-        <Route path="/es/contact" element={<ContactES />} />
+        <Route path="/es/sobre-mi" element={<AboutES />} />
+        <Route path="/es/metodo" element={<MethodES />} />
+        <Route path="/es/precios" element={<PricingES />} />
+        <Route path="/es/contacto" element={<ContactES />} />
       </Routes>
     </BrowserRouter>
   );
