@@ -13,11 +13,19 @@ import MethodES from "./es/pagesES/MethodES/MethodES.jsx";
 import PricingES from "./es/pagesES/PricingES/PricingES.jsx";
 import ContactES from "./es/pagesES/ContactES/ContactES.jsx";
 
+import ScrollToTopPT from "./pt/componentsPT/ScrollToTopPT";
+import HomePT from "./pt/pagesPT/HomePT/HomePT.jsx";
+import AboutPT from "./pt/pagesPT/AboutPT/AboutPT.jsx";
+import MethodPT from "./pt/pagesPT/MethodPT/MethodPT.jsx";
+import PricingPT from "./pt/pagesPT/PricingPT/PricingPT.jsx";
+import ContactPT from "./pt/pagesPT/ContactPT/ContactPT.jsx";
+
 function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
       <ScrollToTopES />
+      <ScrollToTopPT />
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -31,6 +39,12 @@ function App() {
         <Route path="/es/metodo" element={<MethodES />} />
         <Route path="/es/precios" element={<PricingES />} />
         <Route path="/es/contacto" element={<ContactES />} />
+
+        <Route path="/pt" element={<HomePT />} />
+        <Route path="/pt/sobre-mim" element={<AboutPT />} />
+        <Route path="/pt/metodo" element={<MethodPT />} />
+        <Route path="/pt/precos" element={<PricingPT />} />
+        <Route path="/pt/contato" element={<ContactPT />} />
       </Routes>
     </BrowserRouter>
   );

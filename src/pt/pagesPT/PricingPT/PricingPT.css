@@ -1,0 +1,208 @@
+.pricing-page {
+  background: var(--cream);
+  color: var(--text);
+}
+
+.pricing-intro {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 3.5rem 2rem 2rem;
+}
+
+.pricing-intro h1,
+.courses-image-section h2,
+.packages-section h2,
+.trial-section h2 {
+  color: var(--green);
+  font-size: clamp(3rem, 5vw, 4.5rem);
+  line-height: 1;
+  margin-bottom: 1.5rem;
+}
+
+.pricing-divider {
+  width: 260px;
+  height: 1px;
+  margin-bottom: 1.5rem;
+
+  background: linear-gradient(
+    to right,
+    rgba(200, 178, 115, 1),
+    rgba(200, 178, 115, 0.25),
+    transparent
+  );
+}
+
+.pricing-subtitle {
+  font-size: 1.45rem;
+  font-style: italic;
+  color: #111;
+  margin-bottom: 2rem;
+}
+
+.pricing-includes p,
+.packages-section p,
+.trial-section p {
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: #111;
+  margin-bottom: 1rem;
+}
+
+.benefit-icon {
+  width: 30px;
+  height: 30px;
+
+  border: 1px solid rgba(200, 178, 115, 0.7);
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--green);
+
+  font-size: 0.75rem;
+}
+
+.pricing-list {
+  margin-top: 0.5rem;
+}
+
+.pricing-item {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+
+  gap: 1rem;
+  align-items: center;
+
+  margin-bottom: 1rem;
+}
+
+.pricing-item p {
+  margin: 0;
+}
+
+.pricing-includes ul,
+.packages-section ul,
+.trial-section ul {
+  list-style: none;
+}
+
+.pricing-includes li,
+.packages-section li,
+.trial-section li {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  margin-bottom: 0.4rem;
+  position: relative;
+  padding-left: 2rem;
+}
+
+.pricing-includes li::before,
+.packages-section li::before,
+.trial-section li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--green);
+  font-weight: 800;
+}
+
+.packages-section,
+.trial-section {
+  position: relative;
+}
+
+.packages-section::before,
+.trial-section::before {
+  content: "";
+
+  display: block;
+
+  width: 180px;
+  height: 1px;
+
+  margin-bottom: 2rem;
+
+  background: linear-gradient(to right, rgba(200, 178, 115, 0.8), transparent);
+}
+
+.courses-image-section {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 1rem 2rem 2.5rem;
+}
+
+.courses-image-section img {
+  display: block;
+  width: 100%;
+  max-width: 760px;
+  margin: 1.5rem auto 0;
+
+  border-radius: 10px;
+}
+
+.packages-section,
+.trial-section {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+}
+
+.trial-section {
+  padding-bottom: 6rem;
+}
+
+.trial-note {
+  margin-top: 1.5rem;
+}
+
+.cta-button {
+  display: inline-block;
+
+  background: linear-gradient(135deg, #c8102e 0%, #a90d26 100%);
+
+  color: white;
+  text-decoration: none;
+
+  padding: 1rem 2.8rem;
+
+  border-radius: 999px;
+
+  font-size: 0.95rem;
+  font-weight: 800;
+  letter-spacing: 0.4px;
+
+  box-shadow: 0 8px 20px rgba(200, 16, 46, 0.2);
+
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background: linear-gradient(135deg, #b30f2a 0%, #930b21 100%);
+
+  color: white;
+
+  transform: translateY(-4px);
+
+  box-shadow: 0 14px 30px rgba(200, 16, 46, 0.3);
+}
+@media (max-width: 768px) {
+  .pricing-intro,
+  .courses-image-section,
+  .packages-section,
+  .trial-section {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .pricing-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .pricing-includes li,
+  .packages-section li,
+  .trial-section li {
+    font-size: 1rem;
+  }
+}

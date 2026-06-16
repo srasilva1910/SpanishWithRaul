@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import "./HeroES.css";
+import "./HeroPT.css";
 import raul from "../../../assets/images/raulramirez.jpeg";
 
-const HeroES = () => {
+const HeroPT = () => {
   return (
     <section className="hero">
       <div className="hero-image">
@@ -34,7 +34,7 @@ const HeroES = () => {
           doctorado por la UNAM.
         </p>
 
-        <Link to="/es/contacto" className="cta-button">
+        <Link to="/pt/contato" className="cta-button">
           Reserva una clase de prueba gratuita{" "}
         </Link>
       </div>
@@ -42,4 +42,4 @@ const HeroES = () => {
   );
 };
 
-export default HeroES;
+export default HeroPT;

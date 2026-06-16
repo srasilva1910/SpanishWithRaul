@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
-import "./CTAES.css";
+import "./CTAPT.css";
 
-const CTAES = () => {
+const CTAPT = () => {
   return (
     <section className="cta">
-      <Link to="/es/contacto" className="cta-button">
+      <Link to="/pt/contato" className="cta-button">
         Reserva una clase de prueba gratuita{" "}
       </Link>{" "}
     </section>
   );
 };
 
-export default CTAES;
+export default CTAPT;

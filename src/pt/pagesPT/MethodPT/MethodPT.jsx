@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { FaUniversity, FaUserGraduate, FaBookOpen } from "react-icons/fa";
-import NavbarES from "../../componentsES/NavbarES/NavbarES.jsx";
-import FooterES from "../../componentsES/FooterES/FooterES.jsx";
-import "./MethodES.css";
+import NavbarPT from "../../componentsPT/NavbarPT/NavbarPT.jsx";
+import FooterPT from "../../componentsPT/FooterPT/FooterPT.jsx";
+import "./MethodPT.css";
 
-const MethodES = () => {
+const MethodPT = () => {
   return (
     <>
       <Helmet>
@@ -16,7 +16,7 @@ const MethodES = () => {
         />
         <link rel="canonical" href="https://spanishwithraul.com/es/metodo" />
       </Helmet>
-      <NavbarES />
+      <NavbarPT />
 
       <main className="method">
         <section className="method-intro">
@@ -110,15 +110,15 @@ const MethodES = () => {
         </section>
 
         <section className="method-cta">
-          <Link to="/es/contacto" className="cta-button">
+          <Link to="/pt/contato" className="cta-button">
             Reserva una clase de prueba gratuita{" "}
           </Link>{" "}
         </section>
       </main>
 
-      <FooterES />
+      <FooterPT />
     </>
   );
 };
 
-export default MethodES;
+export default MethodPT;

@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
-import NavbarES from "../../componentsES/NavbarES/NavbarES.jsx";
-import FooterES from "../../componentsES/FooterES/FooterES.jsx";
+import NavbarPT from "../../componentsPT/NavbarPT/NavbarPT.jsx";
+import FooterPT from "../../componentsPT/FooterPT/FooterPT.jsx";
 import raul from "../../../assets/images/raulramirez.jpeg";
-import "./AboutES.css";
+import "./AboutPT.css";
 
-const AboutES = () => {
+const AboutPT = () => {
   return (
     <>
       <Helmet>
@@ -18,7 +18,7 @@ const AboutES = () => {
         />
         <link rel="canonical" href="https://spanishwithraul.com/es/sobre-mi" />
       </Helmet>
-      <NavbarES />
+      <NavbarPT />
 
       <main className="about">
         <section className="about-intro">
@@ -63,16 +63,16 @@ const AboutES = () => {
               universitarios que buscan un enfoque estructurado, reflexivo y
               personalizado para aprender español.
             </p>
-            <Link to="/es/contacto" className="cta-button">
+            <Link to="/pt/contato" className="cta-button">
               Reserva una clase de prueba gratuita{" "}
             </Link>{" "}
           </div>
         </section>
       </main>
 
-      <FooterES />
+      <FooterPT />
     </>
   );
 };
 
-export default AboutES;
+export default AboutPT;

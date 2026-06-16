@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import { FaCheck } from "react-icons/fa";
 import { Helmet } from "react-helmet-async";
-import NavbarES from "../../componentsES/NavbarES/NavbarES.jsx";
-import FooterES from "../../componentsES/FooterES/FooterES.jsx";
+import NavbarPT from "../../componentsPT/NavbarPT/NavbarPT.jsx";
+import FooterPT from "../../componentsPT/FooterPT/FooterPT.jsx";
 import pricing from "../../../assets/images/pricingES.jpeg";
-import "./PricingES.css";
+import "./PricingPT.css";
 
-const PricingES = () => {
+const PricingPT = () => {
   return (
     <>
       <Helmet>
@@ -17,7 +17,7 @@ const PricingES = () => {
         />
         <link rel="canonical" href="https://spanishwithraul.com/es/precios" />
       </Helmet>
-      <NavbarES />
+      <NavbarPT />
 
       <main className="pricing-page">
         <section className="pricing-intro">
@@ -140,15 +140,15 @@ const PricingES = () => {
             Esto te permite comprender cómo funcionan las clases antes de tomar
             una decisión.{" "}
           </p>
-          <Link to="/es/contacto" className="cta-button">
+          <Link to="/pt/contato" className="cta-button">
             Reserva una clase de prueba gratuita
           </Link>{" "}
         </section>
       </main>
 
-      <FooterES />
+      <FooterPT />
     </>
   );
 };
 
-export default PricingES;
+export default PricingPT;
