@@ -10,7 +10,7 @@ const NavbarES = () => {
 
   return (
     <nav className="navbar">
-      <Link to="/" className="logo">
+      <Link to="/es" className="logo">
         <img src={logo} alt="Spanish With Raul" />
       </Link>{" "}
       <button

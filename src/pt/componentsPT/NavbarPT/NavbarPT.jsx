@@ -10,7 +10,7 @@ const NavbarPT = () => {
 
   return (
     <nav className="navbar">
-      <Link to="/" className="logo">
+      <Link to="/pt" className="logo">
         <img src={logo} alt="Spanish With Raul" />
       </Link>{" "}
       <button
