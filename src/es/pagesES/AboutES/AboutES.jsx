@@ -12,11 +12,28 @@ const AboutES = () => {
         <title>
           Sobre Raúl Ramírez | Profesor de Español con Doctorado por la UNAM
         </title>
+
         <meta
           name="description"
           content="Conoce a Raúl Ramírez, profesor de español con doctorado por la UNAM y más de veinte años de experiencia en enseñanza, literatura y comunicación."
         />
+
         <link rel="canonical" href="https://spanishwithraul.com/es/sobre-mi" />
+
+        <meta
+          property="og:title"
+          content="Sobre Raúl Ramírez | Spanish With Raul"
+        />
+
+        <meta
+          property="og:description"
+          content="Profesor de español con doctorado por la UNAM y más de veinte años de experiencia en enseñanza universitaria."
+        />
+
+        <meta
+          property="og:url"
+          content="https://spanishwithraul.com/es/sobre-mi"
+        />
       </Helmet>
       <NavbarES />
 

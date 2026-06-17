@@ -47,15 +47,36 @@ const ContactES = () => {
 
   return (
     <>
-      <Helmet>
-        <title> Contacto | Spanish With Raul</title>
-        <meta
-          name="description"
-          content="Ponte en contacto con Raúl Ramírez para reservar una clase de prueba gratuita y recibir un plan de aprendizaje personalizado según tus objetivos y nivel."
-        />
-        <link rel="canonical" href="https://spanishwithraul.com/es/contacto" />
-      </Helmet>
-      <NavbarES />
+<Helmet>
+  <title>
+    Contacto | Spanish With Raul
+  </title>
+
+  <meta
+    name="description"
+    content="Ponte en contacto con Raúl Ramírez para reservar una clase de prueba gratuita y recibir un plan de aprendizaje personalizado según tus objetivos y nivel."
+  />
+
+  <link
+    rel="canonical"
+    href="https://spanishwithraul.com/es/contacto"
+  />
+
+  <meta
+    property="og:title"
+    content="Contacto | Spanish With Raul"
+  />
+
+  <meta
+    property="og:description"
+    content="Reserva una clase de prueba gratuita y descubre un enfoque estructurado y personalizado para aprender español."
+  />
+
+  <meta
+    property="og:url"
+    content="https://spanishwithraul.com/es/contacto"
+  />
+</Helmet>      <NavbarES />
 
       <main className="contact-page">
         <section className="contact-intro">
@@ -67,7 +88,7 @@ const ContactES = () => {
         <section className="contact-container">
           <div className="contact-info">
             <h2>Raúl Ramírez</h2>
-            <p className="contact-role">Spanish Professor</p>
+            <p className="contact-role">Profesor de español</p>
 
             <div className="contact-details">
               <div>
@@ -81,7 +102,7 @@ const ContactES = () => {
               </div>
 
               <div>
-                <h3>Social Media</h3>
+                <h3>Redes Sociales</h3>
                 <p>Instagram · Facebook · YouTube</p>
               </div>
             </div>

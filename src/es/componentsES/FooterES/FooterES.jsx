@@ -21,7 +21,7 @@ const FooterES = () => {
             <FaInstagram />
           </a>
 
-          <a href="#">
+          <a href="https://www.facebook.com/profile.php?id=61584364967010">
             <FaFacebook />
           </a>
 

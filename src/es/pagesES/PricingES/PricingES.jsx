@@ -10,12 +10,29 @@ const PricingES = () => {
   return (
     <>
       <Helmet>
-        <title> Cursos y Precios | Spanish With Raul</title>
+        <title>Cursos y Precios | Spanish With Raul</title>
+
         <meta
           name="description"
           content="Descubre los cursos de español, paquetes de clases y clase de prueba gratuita con Raúl Ramírez. Aprendizaje estructurado, materiales incluidos y seguimiento personalizado."
         />
+
         <link rel="canonical" href="https://spanishwithraul.com/es/precios" />
+
+        <meta
+          property="og:title"
+          content="Cursos y Precios | Spanish With Raul"
+        />
+
+        <meta
+          property="og:description"
+          content="Cursos de español estructurados, materiales incluidos y clase de prueba gratuita. Aprende con un profesor de español con doctorado por la UNAM."
+        />
+
+        <meta
+          property="og:url"
+          content="https://spanishwithraul.com/es/precios"
+        />
       </Helmet>
       <NavbarES />
 

@@ -10,11 +10,28 @@ const MethodES = () => {
     <>
       <Helmet>
         <title>Método de Enseñanza del Español | Spanish With Raul</title>
+
         <meta
           name="description"
           content="Aprende español con un método estructurado basado en los niveles MCER (A1–C2) y en los programas académicos de la UNAM. Clases personalizadas, materiales incluidos y clase de prueba gratuita."
         />
+
         <link rel="canonical" href="https://spanishwithraul.com/es/metodo" />
+
+        <meta
+          property="og:title"
+          content="Método de Enseñanza del Español | Spanish With Raul"
+        />
+
+        <meta
+          property="og:description"
+          content="Aprendizaje estructurado, enseñanza personalizada y materiales incluidos. Basado en los programas académicos de la UNAM y en los niveles MCER."
+        />
+
+        <meta
+          property="og:url"
+          content="https://spanishwithraul.com/es/metodo"
+        />
       </Helmet>
       <NavbarES />
 

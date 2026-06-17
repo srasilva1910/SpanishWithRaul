@@ -20,6 +20,28 @@ const HomeES = () => {
         />
         <link rel="canonical" href="https://spanishwithraul.com/es" />
       </Helmet>
+      <Helmet>
+        <title>
+          Clases de Español Online con un Profesor Universitario | Spanish With
+          Raul
+        </title>
+
+        <meta
+          name="description"
+          content="Aprende español con un profesor universitario con doctorado por la UNAM. Clases estructuradas, personalizadas y basadas en el MCER (A1–C2). Clase de prueba gratuita."
+        />
+
+        <link rel="canonical" href="https://spanishwithraul.com/es" />
+
+        <meta property="og:title" content="Spanish With Raul" />
+
+        <meta
+          property="og:description"
+          content="La estructura de un curso universitario. La atención de un profesor particular."
+        />
+
+        <meta property="og:url" content="https://spanishwithraul.com/es" />
+      </Helmet>
 
       <NavbarES />
       <HeroES />
