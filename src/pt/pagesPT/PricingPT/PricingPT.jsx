@@ -17,10 +17,7 @@ const PricingPT = () => {
           content="Conheça os cursos de espanhol, pacotes de aulas e aula experimental gratuita com Raúl Ramírez. Aprendizagem estruturada, materiais incluídos e acompanhamento personalizado."
         />
 
-        <link
-          rel="canonical"
-          href="https://spanishwithraul.com/pt/cursos-e-precos"
-        />
+        <link rel="canonical" href="https://spanishwithraul.com/pt/precos" />
 
         <meta
           property="og:title"
@@ -34,7 +31,7 @@ const PricingPT = () => {
 
         <meta
           property="og:url"
-          content="https://spanishwithraul.com/pt/cursos-e-precos"
+          content="https://spanishwithraul.com/pt/precos"
         />
 
         <link
@@ -46,13 +43,13 @@ const PricingPT = () => {
         <link
           rel="alternate"
           hrefLang="es"
-          href="https://spanishwithraul.com/es/cursos-y-precios"
+          href="https://spanishwithraul.com/es/precios"
         />
 
         <link
           rel="alternate"
           hrefLang="pt-BR"
-          href="https://spanishwithraul.com/pt/cursos-e-precos"
+          href="https://spanishwithraul.com/pt/precos"
         />
 
         <link

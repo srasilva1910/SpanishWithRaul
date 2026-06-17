@@ -26,13 +26,13 @@ const Pricing = () => {
         <link
           rel="alternate"
           hrefLang="es"
-          href="https://spanishwithraul.com/es/cursos-y-precios"
+          href="https://spanishwithraul.com/es/precios"
         />
 
         <link
           rel="alternate"
           hrefLang="pt-BR"
-          href="https://spanishwithraul.com/pt/cursos-e-precos"
+          href="https://spanishwithraul.com/pt/precos"
         />
 
         <link
