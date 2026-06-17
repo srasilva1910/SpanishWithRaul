@@ -14,10 +14,31 @@ const Method = () => {
           name="description"
           content="Discover a structured Spanish learning method based on CEFR levels, UNAM academic programs and personalized one-on-one instruction."
         />
+        <link rel="canonical" href="https://spanishwithraul.com/method" />
+
         <link
-  rel="canonical"
-  href="https://spanishwithraul.com/method"
-/>
+          rel="alternate"
+          hrefLang="en"
+          href="https://spanishwithraul.com/method"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="es"
+          href="https://spanishwithraul.com/es/metodo"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="pt-BR"
+          href="https://spanishwithraul.com/pt/metodo"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="x-default"
+          href="https://spanishwithraul.com/method"
+        />
       </Helmet>
       <Navbar />
 

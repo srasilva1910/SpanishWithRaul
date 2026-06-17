@@ -30,6 +30,30 @@ const HomePT = () => {
         />
 
         <meta property="og:url" content="https://spanishwithraul.com/pt" />
+
+        <link
+          rel="alternate"
+          hrefLang="en"
+          href="https://spanishwithraul.com/"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="es"
+          href="https://spanishwithraul.com/es"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="pt-BR"
+          href="https://spanishwithraul.com/pt"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="x-default"
+          href="https://spanishwithraul.com/"
+        />
       </Helmet>
 
       <NavbarPT />

@@ -68,6 +68,30 @@ const ContactPT = () => {
           property="og:url"
           content="https://spanishwithraul.com/pt/contato"
         />
+
+        <link
+          rel="alternate"
+          hrefLang="en"
+          href="https://spanishwithraul.com/contact"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="es"
+          href="https://spanishwithraul.com/es/contacto"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="pt-BR"
+          href="https://spanishwithraul.com/pt/contato"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="x-default"
+          href="https://spanishwithraul.com/contact"
+        />
       </Helmet>
       <NavbarPT />
 

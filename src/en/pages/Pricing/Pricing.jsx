@@ -16,6 +16,30 @@ const Pricing = () => {
           content="Explore online Spanish courses, lesson packages and a free trial lesson with Raul Ramirez, a PhD Spanish professor from UNAM."
         />
         <link rel="canonical" href="https://spanishwithraul.com/pricing" />
+
+        <link
+          rel="alternate"
+          hrefLang="en"
+          href="https://spanishwithraul.com/pricing"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="es"
+          href="https://spanishwithraul.com/es/cursos-y-precios"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="pt-BR"
+          href="https://spanishwithraul.com/pt/cursos-e-precos"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="x-default"
+          href="https://spanishwithraul.com/pricing"
+        />
       </Helmet>
       <Navbar />
 

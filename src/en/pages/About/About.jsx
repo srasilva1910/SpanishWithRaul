@@ -15,6 +15,30 @@ const About = () => {
           content="Learn about Raul Ramirez, a Spanish professor with a PhD from UNAM and more than twenty years of experience teaching language, literature and academic writing."
         />
         <link rel="canonical" href="https://spanishwithraul.com/about" />
+
+        <link
+          rel="alternate"
+          hrefLang="en"
+          href="https://spanishwithraul.com/about"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="es"
+          href="https://spanishwithraul.com/es/sobre-mi"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="pt-BR"
+          href="https://spanishwithraul.com/pt/sobre-mim"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="x-default"
+          href="https://spanishwithraul.com/about"
+        />
       </Helmet>
       <Navbar />
 

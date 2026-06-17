@@ -47,36 +47,53 @@ const ContactES = () => {
 
   return (
     <>
-<Helmet>
-  <title>
-    Contacto | Spanish With Raul
-  </title>
+      <Helmet>
+        <title>Contacto | Spanish With Raul</title>
 
-  <meta
-    name="description"
-    content="Ponte en contacto con Raúl Ramírez para reservar una clase de prueba gratuita y recibir un plan de aprendizaje personalizado según tus objetivos y nivel."
-  />
+        <meta
+          name="description"
+          content="Ponte en contacto con Raúl Ramírez para reservar una clase de prueba gratuita y recibir un plan de aprendizaje personalizado según tus objetivos y nivel."
+        />
 
-  <link
-    rel="canonical"
-    href="https://spanishwithraul.com/es/contacto"
-  />
+        <link rel="canonical" href="https://spanishwithraul.com/es/contacto" />
 
-  <meta
-    property="og:title"
-    content="Contacto | Spanish With Raul"
-  />
+        <meta property="og:title" content="Contacto | Spanish With Raul" />
 
-  <meta
-    property="og:description"
-    content="Reserva una clase de prueba gratuita y descubre un enfoque estructurado y personalizado para aprender español."
-  />
+        <meta
+          property="og:description"
+          content="Reserva una clase de prueba gratuita y descubre un enfoque estructurado y personalizado para aprender español."
+        />
 
-  <meta
-    property="og:url"
-    content="https://spanishwithraul.com/es/contacto"
-  />
-</Helmet>      <NavbarES />
+        <meta
+          property="og:url"
+          content="https://spanishwithraul.com/es/contacto"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="en"
+          href="https://spanishwithraul.com/contact"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="es"
+          href="https://spanishwithraul.com/es/contacto"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="pt-BR"
+          href="https://spanishwithraul.com/pt/contato"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="x-default"
+          href="https://spanishwithraul.com/contact"
+        />
+      </Helmet>
+      <NavbarES />
 
       <main className="contact-page">
         <section className="contact-intro">

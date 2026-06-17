@@ -36,6 +36,30 @@ const PricingPT = () => {
           property="og:url"
           content="https://spanishwithraul.com/pt/cursos-e-precos"
         />
+
+        <link
+          rel="alternate"
+          hrefLang="en"
+          href="https://spanishwithraul.com/pricing"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="es"
+          href="https://spanishwithraul.com/es/cursos-y-precios"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="pt-BR"
+          href="https://spanishwithraul.com/pt/cursos-e-precos"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="x-default"
+          href="https://spanishwithraul.com/pricing"
+        />
       </Helmet>
       <NavbarPT />
 

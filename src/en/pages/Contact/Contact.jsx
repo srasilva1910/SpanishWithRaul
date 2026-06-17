@@ -54,6 +54,30 @@ const Contact = () => {
           content="Contact Raul Ramirez to book a free trial Spanish lesson and receive a personalized learning plan based on your goals and level."
         />
         <link rel="canonical" href="https://spanishwithraul.com/contact" />
+
+        <link
+          rel="alternate"
+          hrefLang="en"
+          href="https://spanishwithraul.com/contact"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="es"
+          href="https://spanishwithraul.com/es/contacto"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="pt-BR"
+          href="https://spanishwithraul.com/pt/contato"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="x-default"
+          href="https://spanishwithraul.com/contact"
+        />
       </Helmet>
       <Navbar />
 

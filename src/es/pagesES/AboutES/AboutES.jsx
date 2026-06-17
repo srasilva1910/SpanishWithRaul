@@ -34,6 +34,30 @@ const AboutES = () => {
           property="og:url"
           content="https://spanishwithraul.com/es/sobre-mi"
         />
+
+        <link
+          rel="alternate"
+          hrefLang="en"
+          href="https://spanishwithraul.com/about"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="es"
+          href="https://spanishwithraul.com/es/sobre-mi"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="pt-BR"
+          href="https://spanishwithraul.com/pt/sobre-mim"
+        />
+
+        <link
+          rel="alternate"
+          hrefLang="x-default"
+          href="https://spanishwithraul.com/about"
+        />
       </Helmet>
       <NavbarES />
 
