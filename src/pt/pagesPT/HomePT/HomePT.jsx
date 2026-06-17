@@ -11,14 +11,25 @@ const HomePT = () => {
     <>
       <Helmet>
         <title>
-          Spanish With Raul | Learn Spanish Online with a University Professor
+          Aulas de Espanhol Online com um Professor Universitário | Spanish With
+          Raul
         </title>
 
         <meta
           name="description"
-          content="Structured online Spanish lessons based on CEFR and university programs. Learn with a PhD Spanish professor from UNAM."
+          content="Aprenda espanhol com um professor universitário com doutorado pela UNAM. Aulas estruturadas, personalizadas e baseadas no QECR (A1–C2). Aula experimental gratuita."
         />
-        <link rel="canonical" href="https://spanishwithraul.com/es" />
+
+        <link rel="canonical" href="https://spanishwithraul.com/pt" />
+
+        <meta property="og:title" content="Spanish With Raul" />
+
+        <meta
+          property="og:description"
+          content="A estrutura de um curso universitário. A atenção de um professor particular."
+        />
+
+        <meta property="og:url" content="https://spanishwithraul.com/pt" />
       </Helmet>
 
       <NavbarPT />

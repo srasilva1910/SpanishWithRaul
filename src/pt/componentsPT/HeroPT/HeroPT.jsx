@@ -16,26 +16,25 @@ const HeroPT = () => {
 
       <div className="hero-content">
         <h1>
-          La estructura de un curso universitario.
-          <br />
-          La atención de un profesor particular.
+          A estrutura de um curso universitário. <br />A atenção de um professor
+          particular.{" "}
         </h1>
 
         <div className="hero-divider"></div>
 
         <p>
-          Basado en el Marco Común Europeo de Referencia para las Lenguas (MCER)
-          y en los programas académicos de la Universidad Nacional Autónoma de
-          México (UNAM).
+          Baseado no Quadro Europeu Comum de Referência para Línguas (QECR) e
+          nos programas acadêmicos da Universidade Nacional Autônoma do México
+          (UNAM).{" "}
         </p>
         <p>
-          Para profesionales y estudiantes universitarios de todos los niveles,
-          desde principiante hasta avanzado (A1 a C2). Profesor de español con
-          doctorado por la UNAM.
+          Para profissionais e estudantes universitários de todos os níveis, do
+          iniciante ao avançado (A1 a C2). Professor de espanhol com doutorado
+          pela UNAM.
         </p>
 
         <Link to="/pt/contato" className="cta-button">
-          Reserva una clase de prueba gratuita{" "}
+          Agende uma aula experimental gratuita{" "}
         </Link>
       </div>
     </section>

@@ -11,9 +11,8 @@ const FooterPT = () => {
         <h2>Spanish With Raul</h2>
 
         <p>
-          La estructura de un curso universitario.
-          <br />
-          La atención de un profesor particular.
+          A estrutura de um curso universitário.
+          <br />A atenção de um professor particular.{" "}
         </p>
 
         <div className="footer-socials">
@@ -21,7 +20,7 @@ const FooterPT = () => {
             <FaInstagram />
           </a>
 
-          <a href="#">
+          <a href="https://www.facebook.com/profile.php?id=61584364967010">
             <FaFacebook />
           </a>
 
@@ -32,7 +31,7 @@ const FooterPT = () => {
       </div>
 
       <p className="footer-copy">
-        © 2026 · Raul Ramirez · Doctor en Letras Hispanicas por la UNAM
+        © 2026 · Raul Ramirez · Doutor em Letras Hispanicas pela UNAM
       </p>
     </footer>
   );

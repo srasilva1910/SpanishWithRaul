@@ -9,15 +9,31 @@ const MethodPT = () => {
   return (
     <>
       <Helmet>
-        <title>Método de Enseñanza del Español | Spanish With Raul</title>
+        <title>Método de Ensino de Espanhol | Spanish With Raul</title>
+
         <meta
           name="description"
-          content="Aprende español con un método estructurado basado en los niveles MCER (A1–C2) y en los programas académicos de la UNAM. Clases personalizadas, materiales incluidos y clase de prueba gratuita."
+          content="Aprenda espanhol com um método estruturado baseado nos níveis do QECR (A1–C2) e nos programas acadêmicos da UNAM. Aulas personalizadas, materiais incluídos e aula experimental gratuita."
         />
-        <link rel="canonical" href="https://spanishwithraul.com/es/metodo" />
-      </Helmet>
-      <NavbarPT />
 
+        <link rel="canonical" href="https://spanishwithraul.com/pt/metodo" />
+
+        <meta
+          property="og:title"
+          content="Método de Ensino de Espanhol | Spanish With Raul"
+        />
+
+        <meta
+          property="og:description"
+          content="Aprendizagem estruturada, ensino personalizado e materiais incluídos. Baseado nos programas acadêmicos da UNAM e nos níveis do QECR."
+        />
+
+        <meta
+          property="og:url"
+          content="https://spanishwithraul.com/pt/metodo"
+        />
+      </Helmet>{" "}
+      <NavbarPT />
       <main className="method">
         <section className="method-intro">
           <h1>Método</h1>
@@ -25,9 +41,9 @@ const MethodPT = () => {
           <div className="method-divider"></div>
 
           <p>
-            Mis cursos de español combinan la estructura de un programa
-            universitario de idiomas con la flexibilidad de la enseñanza
-            personalizada.{" "}
+            Meus cursos de espanhol combinam a estrutura de um programa
+            universitário de idiomas com a flexibilidade do ensino
+            personalizado.{" "}
           </p>
         </section>
 
@@ -38,27 +54,27 @@ const MethodPT = () => {
             </div>
 
             <div>
-              <h2>Aprendizaje estructurado</h2>
+              <h2>Aprendizagem estruturada</h2>
 
               <p>
-                Cada estudiante sigue una ruta de aprendizaje clara basada en
-                los niveles del Marco Común Europeo de Referencia para las
-                Lenguas (MCER) (A1–C2).
+                Cada aluno segue uma trajetória de aprendizagem clara, baseada
+                nos níveis do Quadro Europeu Comum de Referência para Línguas
+                (QECR) (A1–C2).
               </p>
 
               <p>
-                Mis cursos y materiales se basan en los programas académicos de
-                español de la Universidad Nacional Autónoma de México (UNAM), lo
-                que proporciona una base estructurada y académicamente sólida
-                para tu aprendizaje.
+                Meus cursos e materiais são baseados nos programas acadêmicos de
+                espanhol da Universidade Nacional Autônoma do México (UNAM),
+                proporcionando uma base estruturada e academicamente sólida para
+                o seu aprendizado.
               </p>
 
               <p>
-                Antes de comenzar, evalúo tu nivel y diseño un plan de
-                aprendizaje adaptado a tus necesidades. A lo largo del curso,
-                supervisamos tu progreso y utilizamos retroalimentación
-                periódica para ayudarte a avanzar con confianza de un nivel al
-                siguiente.{" "}
+                Antes de começar, avalio seu nível e elaboro um plano de
+                aprendizagem adaptado às suas necessidades. Ao longo do curso,
+                acompanhamos seu progresso e utilizamos feedback periódico para
+                ajudá-lo a avançar com confiança de um nível para o
+                seguinte.{" "}
               </p>
             </div>
           </article>
@@ -69,19 +85,18 @@ const MethodPT = () => {
             </div>
 
             <div>
-              <h2>Enseñanza personalizada</h2>
+              <h2>Ensino personalizado</h2>
 
               <p>
-                Aunque la ruta de aprendizaje es estructurada, cada curso se
-                adapta a las necesidades individuales de cada estudiante.
+                Embora a trajetória de aprendizagem seja estruturada, cada curso
+                é adaptado às necessidades individuais de cada aluno.
               </p>
 
               <p>
-                Las clases pueden orientarse a la comunicación profesional, el
-                español académico, la preparación para el examen DELE, el
-                español de herencia, el enriquecimiento cultural, los viajes o
-                cualquier combinación de estas áreas, según tus objetivos y
-                necesidades.{" "}
+                As aulas podem ser direcionadas para comunicação profissional,
+                espanhol acadêmico, preparação para o exame DELE, espanhol de
+                herança, enriquecimento cultural, viagens ou qualquer combinação
+                dessas áreas, de acordo com seus objetivos e necessidades.{" "}
               </p>
             </div>
           </article>
@@ -92,18 +107,18 @@ const MethodPT = () => {
             </div>
 
             <div>
-              <h2>Materiales y clase de prueba</h2>
+              <h2>Materiais e aula experimental</h2>
 
               <p>
-                Todos los estudiantes reciben libros digitales y materiales de
-                estudio sin costo adicional.
+                Todos os alunos recebem livros digitais e materiais de estudo
+                sem custo adicional.
               </p>
 
               <p>
-                Puedes comenzar con una clase de prueba gratuita, durante la
-                cual evaluaré tu nivel actual, conversaremos sobre tus objetivos
-                y te explicaré el plan de aprendizaje que mejor se adapte a tus
-                necesidades.
+                Você pode começar com uma aula experimental gratuita, durante a
+                qual avaliarei seu nível atual, conversaremos sobre seus
+                objetivos e explicarei o plano de aprendizagem que melhor se
+                adapta às suas necessidades.
               </p>
             </div>
           </article>
@@ -111,11 +126,10 @@ const MethodPT = () => {
 
         <section className="method-cta">
           <Link to="/pt/contato" className="cta-button">
-            Reserva una clase de prueba gratuita{" "}
+            Agende uma aula experimental gratuita{" "}
           </Link>{" "}
         </section>
       </main>
-
       <FooterPT />
     </>
   );

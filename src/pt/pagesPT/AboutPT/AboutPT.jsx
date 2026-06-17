@@ -10,13 +10,30 @@ const AboutPT = () => {
     <>
       <Helmet>
         <title>
-          Sobre Raúl Ramírez | Profesor de Español con Doctorado por la UNAM
+          Sobre Raúl Ramírez | Professor de Espanhol com Doutorado pela UNAM
         </title>
+
         <meta
           name="description"
-          content="Conoce a Raúl Ramírez, profesor de español con doctorado por la UNAM y más de veinte años de experiencia en enseñanza, literatura y comunicación."
+          content="Conheça Raúl Ramírez, professor de espanhol com doutorado pela UNAM e mais de vinte anos de experiência em ensino, literatura, comunicação e redação acadêmica."
         />
-        <link rel="canonical" href="https://spanishwithraul.com/es/sobre-mi" />
+
+        <link rel="canonical" href="https://spanishwithraul.com/pt/sobre-mim" />
+
+        <meta
+          property="og:title"
+          content="Sobre Raúl Ramírez | Spanish With Raul"
+        />
+
+        <meta
+          property="og:description"
+          content="Professor de espanhol com doutorado pela UNAM e mais de vinte anos de experiência no ensino universitário."
+        />
+
+        <meta
+          property="og:url"
+          content="https://spanishwithraul.com/pt/sobre-mim"
+        />
       </Helmet>
       <NavbarPT />
 
@@ -30,41 +47,39 @@ const AboutPT = () => {
           </div>
 
           <div className="about-content">
-            <h1>Sobre mí</h1>
+            <h1>Sobre mim</h1>
             <div className="about-divider"></div>
             <p>
-              Hola, soy Raúl Ramírez, profesor de español de la Ciudad de México
-              y doctor en Lengua y Literatura Hispánicas por la Universidad
-              Nacional Autónoma de México (UNAM).{" "}
+              Olá, sou Raúl Ramírez, professor de espanhol da Cidade do México e
+              doutor em Língua e Literatura Hispânicas pela Universidade
+              Nacional Autônoma do México (UNAM).{" "}
             </p>
             <p>
-              Durante más de dos décadas he impartido cursos de lengua,
-              literatura, comunicación y redacción académica en universidades de
-              México y Brasil, incluyendo la Universidad de São Paulo, una de
-              las instituciones de educación superior más prestigiosas de
-              América Latina.
+              Há mais de duas décadas, leciono língua, literatura, comunicação e
+              redação acadêmica em universidades do México e do Brasil,
+              incluindo a Universidade de São Paulo, uma das instituições de
+              ensino superior mais prestigiadas da América Latina.
             </p>
             <p>
-              Mi trabajo académico se ha centrado en el estudio de la lengua, la
-              literatura, la retórica y la comunicación. Con el paso de los
-              años, me ha interesado cada vez más una pregunta que también se
-              encuentra en el centro del aprendizaje de idiomas: cómo las
-              personas comprenden, interpretan y expresan ideas con claridad.
+              Meu trabalho acadêmico tem se concentrado no estudo da língua, da
+              literatura, da retórica e da comunicação. Ao longo dos anos, tenho
+              me interessado cada vez mais por uma questão que também está no
+              centro da aprendizagem de idiomas: como as pessoas compreendem,
+              interpretam e expressam ideias com clareza.
             </p>
             <p>
-              La enseñanza del español me permite integrar todos estos
-              intereses. Disfruto ayudando a mis estudiantes no solo a
-              comunicarse en español, sino también a comprender cómo funciona el
-              idioma y a desarrollar la confianza necesaria para utilizarlo de
-              manera efectiva.
+              Ensinar espanhol me permite reunir todos esses interesses. Gosto
+              de ajudar meus alunos não apenas a se comunicarem em espanhol, mas
+              também a compreender como a língua funciona e a desenvolver a
+              confiança necessária para utilizá-la de forma eficaz.
             </p>
             <p>
-              Actualmente trabajo principalmente con profesionales y estudiantes
-              universitarios que buscan un enfoque estructurado, reflexivo y
-              personalizado para aprender español.
+              Atualmente, trabalho principalmente com profissionais e estudantes
+              universitários que buscam uma abordagem estruturada, reflexiva e
+              personalizada para aprender espanhol.
             </p>
             <Link to="/pt/contato" className="cta-button">
-              Reserva una clase de prueba gratuita{" "}
+              Agende uma aula experimental gratuita{" "}
             </Link>{" "}
           </div>
         </section>

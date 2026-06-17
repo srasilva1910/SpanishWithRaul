@@ -48,18 +48,32 @@ const ContactPT = () => {
   return (
     <>
       <Helmet>
-        <title> Contacto | Spanish With Raul</title>
+        <title>Contato | Spanish With Raul</title>
+
         <meta
           name="description"
-          content="Ponte en contacto con Raúl Ramírez para reservar una clase de prueba gratuita y recibir un plan de aprendizaje personalizado según tus objetivos y nivel."
+          content="Entre em contato com Raúl Ramírez para agendar uma aula experimental gratuita e receber um plano de aprendizagem personalizado de acordo com seus objetivos e nível."
         />
-        <link rel="canonical" href="https://spanishwithraul.com/es/contacto" />
+
+        <link rel="canonical" href="https://spanishwithraul.com/pt/contato" />
+
+        <meta property="og:title" content="Contato | Spanish With Raul" />
+
+        <meta
+          property="og:description"
+          content="Agende uma aula experimental gratuita e descubra uma abordagem estruturada e personalizada para aprender espanhol."
+        />
+
+        <meta
+          property="og:url"
+          content="https://spanishwithraul.com/pt/contato"
+        />
       </Helmet>
       <NavbarPT />
 
       <main className="contact-page">
         <section className="contact-intro">
-          <h1>Contacto</h1>
+          <h1>Contato</h1>
 
           <div className="contact-divider"></div>
         </section>
@@ -67,11 +81,11 @@ const ContactPT = () => {
         <section className="contact-container">
           <div className="contact-info">
             <h2>Raúl Ramírez</h2>
-            <p className="contact-role">Spanish Professor</p>
+            <p className="contact-role">Professor de espanhol</p>
 
             <div className="contact-details">
               <div>
-                <h3>Email</h3>
+                <h3>E-mail</h3>
                 <p>raul@email.com</p>
               </div>
 
@@ -81,19 +95,19 @@ const ContactPT = () => {
               </div>
 
               <div>
-                <h3>Social Media</h3>
+                <h3>Redes Sociais</h3>
                 <p>Instagram · Facebook · YouTube</p>
               </div>
             </div>
           </div>
 
           <form className="contact-form" onSubmit={handleSubmit}>
-            <h2>Enviar mensaje</h2>
+            <h2>Enviar mensagem</h2>
 
             <input
               type="text"
               name="user_name"
-              placeholder="Nombre"
+              placeholder="Nome"
               value={formData.user_name}
               onChange={handleChange}
               required
@@ -111,13 +125,13 @@ const ContactPT = () => {
             <textarea
               rows="6"
               name="message"
-              placeholder="Como te puedo ayudar?"
+              placeholder="Como posso te ajudar?"
               value={formData.message}
               onChange={handleChange}
               required
             />
 
-            <button type="submit">Enviar mensaje</button>
+            <button type="submit">Enviar mensagem</button>
 
             {status && <p className="form-status">{status}</p>}
           </form>

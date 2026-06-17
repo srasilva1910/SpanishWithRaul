@@ -34,7 +34,7 @@ const NavbarPT = () => {
             Método
           </Link>
           <Link to="/pt/precos" onClick={closeMenu}>
-            Cursos e Precos
+            Cursos e Preços
           </Link>
           <Link to="/pt/contato" onClick={closeMenu}>
             Contato

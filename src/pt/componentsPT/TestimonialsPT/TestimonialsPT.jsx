@@ -41,7 +41,7 @@ const TestimonialsPT = () => {
 
           <h4>{review.name}</h4>
 
-          <span>Leer opinión completa →</span>
+          <span>Ler comentário completo →</span>
         </a>
       ))}
     </section>

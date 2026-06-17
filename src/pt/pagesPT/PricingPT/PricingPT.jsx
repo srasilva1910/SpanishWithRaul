@@ -3,68 +3,88 @@ import { FaCheck } from "react-icons/fa";
 import { Helmet } from "react-helmet-async";
 import NavbarPT from "../../componentsPT/NavbarPT/NavbarPT.jsx";
 import FooterPT from "../../componentsPT/FooterPT/FooterPT.jsx";
-import pricing from "../../../assets/images/pricingES.jpeg";
+import pricing from "../../../assets/images/pricingPT.jpeg";
 import "./PricingPT.css";
 
 const PricingPT = () => {
   return (
     <>
       <Helmet>
-        <title> Cursos y Precios | Spanish With Raul</title>
+        <title>Cursos e Preços | Spanish With Raul</title>
+
         <meta
           name="description"
-          content="Descubre los cursos de español, paquetes de clases y clase de prueba gratuita con Raúl Ramírez. Aprendizaje estructurado, materiales incluidos y seguimiento personalizado."
+          content="Conheça os cursos de espanhol, pacotes de aulas e aula experimental gratuita com Raúl Ramírez. Aprendizagem estruturada, materiais incluídos e acompanhamento personalizado."
         />
-        <link rel="canonical" href="https://spanishwithraul.com/es/precios" />
+
+        <link
+          rel="canonical"
+          href="https://spanishwithraul.com/pt/cursos-e-precos"
+        />
+
+        <meta
+          property="og:title"
+          content="Cursos e Preços | Spanish With Raul"
+        />
+
+        <meta
+          property="og:description"
+          content="Cursos de espanhol estruturados, materiais incluídos e aula experimental gratuita. Aprenda com um professor de espanhol com doutorado pela UNAM."
+        />
+
+        <meta
+          property="og:url"
+          content="https://spanishwithraul.com/pt/cursos-e-precos"
+        />
       </Helmet>
       <NavbarPT />
 
       <main className="pricing-page">
         <section className="pricing-intro">
-          <h1>Cursos y Precios</h1>
+          <h1>Cursos e Preços</h1>
 
           <div className="pricing-divider"></div>
 
           <p className="pricing-subtitle">
-            Estructura clara. Clases personalizadas. Progreso real.{" "}
+            Estrutura clara. Aulas personalizadas. Progresso real.{" "}
           </p>
 
           <div className="pricing-includes">
-            <p>Todas las clases incluyen:</p>
+            <p>Todas as aulas incluem:</p>
             <div className="pricing-list">
               <div className="pricing-item">
                 <div className="benefit-icon">
                   <FaCheck />
                 </div>
-                <p>Clases estructuradas basadas en los niveles del MCER</p>
+                <p>Aulas estruturadas com base nos níveis do QECR</p>
               </div>
 
               <div className="pricing-item">
                 <div className="benefit-icon">
                   <FaCheck />
                 </div>
-                <p>Plan de aprendizaje personalizado</p>
+                <p>Plano de aprendizagem personalizado</p>
               </div>
 
               <div className="pricing-item">
                 <div className="benefit-icon">
                   <FaCheck />
                 </div>
-                <p>Libros digitales y materiales de estudio</p>
+                <p>Livros digitais e materiais de estudo</p>
               </div>
 
               <div className="pricing-item">
                 <div className="benefit-icon">
                   <FaCheck />
                 </div>
-                <p>Evaluación de nivel</p>
+                <p>Avaliação de nível</p>
               </div>
 
               <div className="pricing-item">
                 <div className="benefit-icon">
                   <FaCheck />
                 </div>
-                <p>Seguimiento del progreso y retroalimentación</p>
+                <p>Acompanhamento do progresso e feedback</p>
               </div>
             </div>{" "}
           </div>
@@ -73,15 +93,15 @@ const PricingPT = () => {
         <section className="courses-image-section">
           <h2>Cursos</h2>
 
-          <img src={pricing} alt="Spanish course packages and pricing" />
+          <img src={pricing} alt="Pacotes de cursos de espanhol e preços" />
         </section>
 
         <section className="packages-section">
-          <h2>¿Por qué elegir un paquete?</h2>
+          <h2>Por que escolher um pacote?</h2>
 
           <p>
-            Aprender español requiere constancia. <br />
-            Los paquetes te ayudan a:{" "}
+            Aprender espanhol exige consistência. <br />
+            Os pacotes ajudam você a:{" "}
           </p>
 
           <div className="pricing-list">
@@ -89,59 +109,60 @@ const PricingPT = () => {
               <div className="benefit-icon">
                 <FaCheck />
               </div>
-              <p>Crear una rutina de aprendizaje regular</p>
+              <p>Criar uma rotina regular de aprendizagem</p>
             </div>
 
             <div className="pricing-item">
               <div className="benefit-icon">
                 <FaCheck />
               </div>
-              <p>Seguir un plan estructurado</p>
+              <p>Seguir um plano estruturado</p>
             </div>
 
             <div className="pricing-item">
               <div className="benefit-icon">
                 <FaCheck />
               </div>
-              <p>Ver un progreso real a lo largo del tiempo</p>
+              <p>Observar um progresso real ao longo do tempo</p>
             </div>
           </div>
         </section>
 
         <section className="trial-section">
-          <h2>Clase de prueba gratuita</h2>
+          <h2>Aula experimental gratuita</h2>
           <p>
-            Puedes comenzar con una clase de prueba gratuita. <br />
-            Durante esta sesión:{" "}
+            Você pode começar com uma aula experimental gratuita.
+            <br />
+            Durante esta sessão:{" "}
           </p>
           <div className="pricing-list">
             <div className="pricing-item">
               <div className="benefit-icon">
                 <FaCheck />
               </div>
-              <p>Evalúo tu nivel</p>
+              <p>Avalio seu nível</p>
             </div>
 
             <div className="pricing-item">
               <div className="benefit-icon">
                 <FaCheck />
               </div>
-              <p>Conozco tus objetivos</p>
+              <p>Compreendo seus objetivos</p>
             </div>
 
             <div className="pricing-item">
               <div className="benefit-icon">
                 <FaCheck />
               </div>
-              <p>Te explico tu plan de aprendizaje</p>
+              <p>Explico seu plano de aprendizagem</p>
             </div>
           </div>
           <p className="trial-note">
-            Esto te permite comprender cómo funcionan las clases antes de tomar
-            una decisión.{" "}
+            Isso permite que você entenda como as aulas funcionam antes de tomar
+            uma decisão.{" "}
           </p>
           <Link to="/pt/contato" className="cta-button">
-            Reserva una clase de prueba gratuita
+            Agende uma aula experimental gratuita{" "}
           </Link>{" "}
         </section>
       </main>

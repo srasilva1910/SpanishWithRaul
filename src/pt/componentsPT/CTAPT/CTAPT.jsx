@@ -5,7 +5,7 @@ const CTAPT = () => {
   return (
     <section className="cta">
       <Link to="/pt/contato" className="cta-button">
-        Reserva una clase de prueba gratuita{" "}
+        Agende uma aula experimental gratuita{" "}
       </Link>{" "}
     </section>
   );
