@@ -47,7 +47,7 @@ const Contact = () => {
 
   return (
     <>
-      <Helmet>
+      <Helmet htmlAttributes={{ lang: "en" }}>
         <title>Contact Raul Ramirez | Free Trial Spanish Lesson</title>
         <meta
           name="description"

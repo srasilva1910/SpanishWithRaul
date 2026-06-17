@@ -9,7 +9,7 @@ import { Helmet } from "react-helmet-async";
 const HomePT = () => {
   return (
     <>
-      <Helmet>
+      <Helmet htmlAttributes={{ lang: "pt-BR" }}>
         <title>
           Aulas de Espanhol Online com um Professor Universitário | Spanish With
           Raul

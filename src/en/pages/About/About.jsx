@@ -8,7 +8,7 @@ import "./About.css";
 const About = () => {
   return (
     <>
-      <Helmet>
+      <Helmet htmlAttributes={{ lang: "en" }}>
         <title>About Raul Ramirez | PhD Spanish Professor</title>
         <meta
           name="description"

@@ -8,7 +8,7 @@ import "./MethodPT.css";
 const MethodPT = () => {
   return (
     <>
-      <Helmet>
+      <Helmet htmlAttributes={{ lang: "pt-BR" }}>
         <title>Método de Ensino de Espanhol | Spanish With Raul</title>
 
         <meta

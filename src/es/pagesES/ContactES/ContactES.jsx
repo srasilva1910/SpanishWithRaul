@@ -47,7 +47,7 @@ const ContactES = () => {
 
   return (
     <>
-      <Helmet>
+      <Helmet htmlAttributes={{ lang: "es" }}>
         <title>Contacto | Spanish With Raul</title>
 
         <meta

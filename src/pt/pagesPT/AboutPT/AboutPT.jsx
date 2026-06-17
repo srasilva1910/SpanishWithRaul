@@ -8,7 +8,7 @@ import "./AboutPT.css";
 const AboutPT = () => {
   return (
     <>
-      <Helmet>
+      <Helmet htmlAttributes={{ lang: "pt-BR" }}>
         <title>
           Sobre Raúl Ramírez | Professor de Espanhol com Doutorado pela UNAM
         </title>

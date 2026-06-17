@@ -8,7 +8,7 @@ import "./AboutES.css";
 const AboutES = () => {
   return (
     <>
-      <Helmet>
+      <Helmet htmlAttributes={{ lang: "es" }}>
         <title>
           Sobre Raúl Ramírez | Profesor de Español con Doctorado por la UNAM
         </title>

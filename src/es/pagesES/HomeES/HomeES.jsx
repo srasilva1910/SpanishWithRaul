@@ -9,7 +9,7 @@ import { Helmet } from "react-helmet-async";
 const HomeES = () => {
   return (
     <>
-      <Helmet>
+      <Helmet htmlAttributes={{ lang: "es" }}>
         <title>
           Spanish With Raul | Learn Spanish Online with a University Professor
         </title>

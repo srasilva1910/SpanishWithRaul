@@ -8,7 +8,7 @@ import "./MethodES.css";
 const MethodES = () => {
   return (
     <>
-      <Helmet>
+      <Helmet htmlAttributes={{ lang: "es" }}>
         <title>Método de Enseñanza del Español | Spanish With Raul</title>
 
         <meta

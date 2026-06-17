@@ -9,7 +9,7 @@ import "./Pricing.css";
 const Pricing = () => {
   return (
     <>
-      <Helmet>
+      <Helmet htmlAttributes={{ lang: "en" }}>
         <title>Spanish Courses and Pricing | Spanish With Raul</title>
         <meta
           name="description"

@@ -9,7 +9,7 @@ import "./PricingPT.css";
 const PricingPT = () => {
   return (
     <>
-      <Helmet>
+      <Helmet htmlAttributes={{ lang: "pt-BR" }}>
         <title>Cursos e Preços | Spanish With Raul</title>
 
         <meta

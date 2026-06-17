@@ -8,7 +8,7 @@ import "./Method.css";
 const Method = () => {
   return (
     <>
-      <Helmet>
+      <Helmet htmlAttributes={{ lang: "en" }}>
         <title>Spanish Teaching Method | CEFR-Based Learning</title>
         <meta
           name="description"
