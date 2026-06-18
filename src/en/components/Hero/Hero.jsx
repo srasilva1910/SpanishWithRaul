@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { FaWhatsapp } from "react-icons/fa";
 import "./Hero.css";
 import raul from "../../../assets/images/raulramirez.jpeg";
 
@@ -33,9 +34,21 @@ const Hero = () => {
           to advanced (A1 to C2). Spanish professor with a PhD from UNAM.
         </p>
 
-        <Link to="/contact" className="cta-button">
-          Book a Free Trial Lesson
-        </Link>
+        <div className="hero-actions">
+          <Link to="/contact" className="cta-button">
+            Book a Free Trial Lesson
+          </Link>
+
+          <a
+            href="https://wa.me/5213313635768"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="whatsapp-link"
+          >
+            <FaWhatsapp />
+            Chat on WhatsApp
+          </a>
+        </div>
       </div>
     </section>
   );
