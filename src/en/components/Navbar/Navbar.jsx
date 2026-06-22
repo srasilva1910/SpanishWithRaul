@@ -35,6 +35,10 @@ const Navbar = () => {
           <Link to="/method" onClick={closeMenu}>
             Method
           </Link>
+          <Link to="/level-test" onClick={closeMenu}>
+            Check Your Level{" "}
+          </Link>
+
           <Link to="/pricing" onClick={closeMenu}>
             Courses & Pricing
           </Link>

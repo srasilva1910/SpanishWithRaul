@@ -1,0 +1,140 @@
+.level-test {
+  background: var(--cream);
+  color: var(--text);
+}
+
+.level-test-intro {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 2rem 2.5rem;
+  text-align: left;
+}
+
+.level-test-intro h1 {
+  color: var(--green);
+  font-size: clamp(3.2rem, 6vw, 5rem);
+  line-height: 1;
+  margin-bottom: 1.5rem;
+}
+
+.level-test-divider {
+  width: 260px;
+  height: 1px;
+  margin-bottom: 1.5rem;
+
+  background: linear-gradient(
+    to right,
+    rgba(200, 178, 115, 1),
+    rgba(200, 178, 115, 0.25),
+    transparent
+  );
+}
+
+.level-test-intro p {
+  max-width: 780px;
+  margin: 0 auto;
+  color: #555;
+  font-size: 1.25rem;
+  line-height: 1.8;
+}
+
+.level-test-sections {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0.5rem 2rem 3rem;
+}
+
+.level-test-block {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: 1.4rem;
+  padding: 1.8rem 0;
+  position: relative;
+}
+
+.level-test-icon {
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(200, 178, 115, 0.7);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c8b273;
+  font-size: 1rem;
+  margin-top: 0.25rem;
+}
+
+.level-test-block h2 {
+  color: var(--green);
+  font-size: clamp(1.7rem, 3vw, 2.3rem);
+  line-height: 1.15;
+  margin-bottom: 1rem;
+}
+
+.level-test-block p {
+  color: #555;
+  font-size: 1.08rem;
+  line-height: 1.85;
+  margin-bottom: 0;
+}
+
+.level-test-block::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 60px;
+  width: 180px;
+  height: 1px;
+  background: linear-gradient(to right, rgba(200, 178, 115, 0.5), transparent);
+}
+
+.level-test-form {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem 5rem;
+}
+
+.level-test-form iframe {
+  width: 100%;
+  min-height: 1800px;
+  border: none;
+  border-radius: 20px;
+  background: white;
+  box-shadow: 0 15px 40px rgba(18, 60, 44, 0.12);
+}
+
+.level-test-cta {
+  position: relative;
+  background: var(--cream);
+  text-align: center;
+  padding: 0 1rem 3.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .level-test-intro {
+    padding: 4rem 1.5rem 2rem;
+  }
+
+  .level-test-sections {
+    padding: 0.5rem 1.5rem 3rem;
+  }
+
+  .level-test-block {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 2.5rem 0;
+  }
+
+  .level-test-form {
+    padding: 0 1rem 4rem;
+  }
+
+  .level-test-form iframe {
+    min-height: 1900px;
+    border-radius: 16px;
+  }
+}
