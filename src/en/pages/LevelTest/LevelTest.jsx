@@ -41,62 +41,6 @@ const LevelTest = () => {
       <Navbar />
 
       <main className="level-test">
-        <section className="level-test-intro">
-          <h1>Spanish Level Test</h1>
-
-          <div className="level-test-divider"></div>
-
-          <p>
-            Discover your Spanish level according to the CEFR scale (A1–C2).
-            Complete this free placement test and receive personalized guidance
-            before starting your Spanish learning journey.
-          </p>
-        </section>
-
-        <section className="level-test-sections">
-          <article className="level-test-block">
-            <div className="level-test-icon">
-              <FaChartLine />
-            </div>
-
-            <div>
-              <h2>Understand Your Current Level</h2>
-              <p>
-                Find out whether your Spanish corresponds to A1, A2, B1, B2, C1,
-                or C2.
-              </p>
-            </div>
-          </article>
-
-          <article className="level-test-block">
-            <div className="level-test-icon">
-              <FaUserCheck />
-            </div>
-
-            <div>
-              <h2>Receive Personalized Guidance</h2>
-              <p>
-                Your answers help identify the best learning path based on your
-                current level, goals, and areas for improvement.
-              </p>
-            </div>
-          </article>
-
-          <article className="level-test-block">
-            <div className="level-test-icon">
-              <FaLaptop />
-            </div>
-
-            <div>
-              <h2>Free and Online</h2>
-              <p>
-                Complete the test below from anywhere and take the first step
-                toward a structured Spanish course.
-              </p>
-            </div>
-          </article>
-        </section>
-
         <section className="level-test-form">
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSeRpf3As68jyV7SRxnKS3gncZWpaEqJ8_ucN9lyUysj-Al6ag/viewform?embedded=true"
