@@ -1,11 +1,29 @@
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
+import { useEffect } from "react";
 import { FaChartLine, FaUserCheck, FaLaptop } from "react-icons/fa";
 import NavbarES from "../../componentsES/NavbarES/NavbarES.jsx";
 import FooterES from "../../componentsES/FooterES/FooterES.jsx";
 import "./LevelTestES.css";
 
 const LevelTestES = () => {
+  useEffect(() => {
+    if (window.gtag) {
+      window.gtag("event", "level_test_view", {
+        event_category: "Engagement",
+        event_label: "Spanish Level Test",
+      });
+    }
+  }, []);
+  useEffect(() => {
+    if (window.gtag) {
+      window.gtag("event", "level_test_view", {
+        event_category: "Engagement",
+        event_label: "Spanish Level Test",
+      });
+    }
+  }, []);
+
   return (
     <>
       <Helmet htmlAttributes={{ lang: "es" }}>

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { FaWhatsapp } from "react-icons/fa";
 import "./HeroPT.css";
 import raul from "../../../assets/images/raulramirez.jpeg";
 
@@ -33,9 +34,28 @@ const HeroPT = () => {
           pela UNAM.
         </p>
 
-        <Link to="/pt/contato" className="cta-button">
-          Agende uma aula experimental gratuita{" "}
-        </Link>
+        <div className="hero-actions">
+          <Link to="/pt/contato" className="cta-button">
+            Agende uma aula experimental gratuita{" "}
+          </Link>
+          <a
+            href="https://wa.me/5213313635768"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="whatsapp-link"
+            onClick={() => {
+              if (window.gtag) {
+                window.gtag("event", "whatsapp_click", {
+                  event_category: "Lead",
+                  event_label: "Hero WhatsApp",
+                });
+              }
+            }}
+          >
+            <FaWhatsapp />
+            Chat on WhatsApp
+          </a>
+        </div>
       </div>
     </section>
   );

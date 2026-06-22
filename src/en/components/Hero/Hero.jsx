@@ -38,16 +38,23 @@ const Hero = () => {
           <Link to="/contact" className="cta-button">
             Book a Free Trial Lesson
           </Link>
-
           <a
             href="https://wa.me/5213313635768"
             target="_blank"
             rel="noopener noreferrer"
             className="whatsapp-link"
+            onClick={() => {
+              if (window.gtag) {
+                window.gtag("event", "whatsapp_click", {
+                  event_category: "Lead",
+                  event_label: "Hero WhatsApp",
+                });
+              }
+            }}
           >
             <FaWhatsapp />
             Chat on WhatsApp
-          </a>
+          </a>{" "}
         </div>
       </div>
     </section>

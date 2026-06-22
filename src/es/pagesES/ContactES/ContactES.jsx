@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import emailjs from "@emailjs/browser";
+import { FaWhatsapp } from "react-icons/fa";
 import NavbarES from "../../componentsES/NavbarES/NavbarES.jsx";
 import FooterES from "../../componentsES/FooterES/FooterES.jsx";
 import "./ContactES.css";
@@ -31,7 +32,15 @@ const ContactES = () => {
         formData,
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
       );
-      setStatus("Mensaje enviado con éxito!");
+
+      if (window.gtag) {
+        window.gtag("event", "contact_form_submit", {
+          event_category: "Lead",
+          event_label: "Contact Form",
+        });
+      }
+
+      setStatus("Message sent successfully!");
 
       setFormData({
         user_name: "",
@@ -41,7 +50,7 @@ const ContactES = () => {
     } catch (error) {
       console.error(error);
 
-      setStatus("Por favor, inténtalo otra vez.");
+      setStatus("Something went wrong. Please try again.");
     }
   };
 
@@ -115,9 +124,25 @@ const ContactES = () => {
 
               <div>
                 <h3>WhatsApp</h3>
-                <p>+52 XX XXXX XXXX</p>
-              </div>
 
+                <a
+                  href="https://wa.me/5213313635768"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="contact-whatsapp-button"
+                  onClick={() => {
+                    if (window.gtag) {
+                      window.gtag("event", "whatsapp_click", {
+                        event_category: "Lead",
+                        event_label: "Contact Page WhatsApp",
+                      });
+                    }
+                  }}
+                >
+                  <FaWhatsapp />
+                  Chat on WhatsApp
+                </a>
+              </div>
               <div>
                 <h3>Redes Sociales</h3>
                 <p>Instagram · Facebook · YouTube</p>

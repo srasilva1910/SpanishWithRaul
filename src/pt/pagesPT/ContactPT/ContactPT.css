@@ -252,6 +252,35 @@
   font-weight: 600;
 }
 
+.contact-whatsapp-button {
+  width: fit-content;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+
+  margin-top: 0.3rem;
+
+  background: transparent;
+  color: var(--green);
+
+  text-decoration: none;
+
+  font-size: 0.95rem;
+  font-weight: 700;
+
+  transition: all 0.3s ease;
+}
+
+.contact-whatsapp-button svg {
+  font-size: 1.15rem;
+}
+
+.contact-whatsapp-button:hover {
+  color: var(--gold);
+  transform: translateX(3px);
+}
+
 @media (max-width: 900px) {
   .contact-container {
     grid-template-columns: 1fr;
@@ -269,6 +298,13 @@
   }
 
   .contact-form button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .contact-whatsapp-button {
     margin-left: auto;
     margin-right: auto;
   }

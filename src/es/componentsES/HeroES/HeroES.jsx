@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { FaWhatsapp } from "react-icons/fa";
 import "./HeroES.css";
 import raul from "../../../assets/images/raulramirez.jpeg";
 
@@ -34,9 +35,28 @@ const HeroES = () => {
           doctorado por la UNAM.
         </p>
 
-        <Link to="/es/contacto" className="cta-button">
-          Reserva una clase de prueba gratuita{" "}
-        </Link>
+        <div className="hero-actions">
+          <Link to="/es/contacto" className="cta-button">
+            Reserva una clase de prueba gratuita{" "}
+          </Link>
+          <a
+            href="https://wa.me/5213313635768"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="whatsapp-link"
+            onClick={() => {
+              if (window.gtag) {
+                window.gtag("event", "whatsapp_click", {
+                  event_category: "Lead",
+                  event_label: "Hero WhatsApp",
+                });
+              }
+            }}
+          >
+            <FaWhatsapp />
+            Chat on WhatsApp
+          </a>
+        </div>
       </div>
     </section>
   );
