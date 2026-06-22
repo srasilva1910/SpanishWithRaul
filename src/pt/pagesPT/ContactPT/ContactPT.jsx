@@ -33,12 +33,11 @@ const ContactPT = () => {
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
       );
 
-      if (window.gtag) {
-        window.gtag("event", "contact_form_submit", {
-          event_category: "Lead",
-          event_label: "Contact Form",
-        });
-      }
+      window.dataLayer = window.dataLayer || [];
+
+      window.dataLayer.push({
+        event: "contact_form_submit",
+      });
 
       setStatus("Message sent successfully!");
 
@@ -122,28 +121,28 @@ const ContactPT = () => {
                 <p>raul@email.com</p>
               </div>
 
-              
-<div>
-  <h3>WhatsApp</h3>
+              <div>
+                <h3>WhatsApp</h3>
 
-  <a
-    href="https://wa.me/5213313635768"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="contact-whatsapp-button"
-    onClick={() => {
-      if (window.gtag) {
-        window.gtag("event", "whatsapp_click", {
-          event_category: "Lead",
-          event_label: "Contact Page WhatsApp",
-        });
-      }
-    }}
-  >
-    <FaWhatsapp />
-    Chat on WhatsApp
-  </a>
-</div>              
+                <a
+                  href="https://wa.me/5213313635768"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="contact-whatsapp-button"
+                  onClick={() => {
+                    window.dataLayer = window.dataLayer || [];
+
+                    window.dataLayer.push({
+                      event: "whatsapp_click",
+                      location: "contact_page",
+                    });
+                  }}
+                >
+                  {" "}
+                  <FaWhatsapp />
+                  Chat on WhatsApp
+                </a>
+              </div>
 
               <div>
                 <h3>Redes Sociais</h3>

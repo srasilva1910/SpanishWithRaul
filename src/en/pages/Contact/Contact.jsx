@@ -33,12 +33,11 @@ const Contact = () => {
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
       );
 
-      if (window.gtag) {
-        window.gtag("event", "contact_form_submit", {
-          event_category: "Lead",
-          event_label: "Contact Form",
-        });
-      }
+      window.dataLayer = window.dataLayer || [];
+
+      window.dataLayer.push({
+        event: "contact_form_submit",
+      });
 
       setStatus("Message sent successfully!");
 
@@ -117,12 +116,12 @@ const Contact = () => {
                   rel="noopener noreferrer"
                   className="contact-whatsapp-button"
                   onClick={() => {
-                    if (window.gtag) {
-                      window.gtag("event", "whatsapp_click", {
-                        event_category: "Lead",
-                        event_label: "Contact Page WhatsApp",
-                      });
-                    }
+                    window.dataLayer = window.dataLayer || [];
+
+                    window.dataLayer.push({
+                      event: "whatsapp_click",
+                      location: "contact_page",
+                    });
                   }}
                 >
                   <FaWhatsapp />

@@ -8,12 +8,11 @@ import "./LevelTestPT.css";
 
 const LevelTestPT = () => {
   useEffect(() => {
-    if (window.gtag) {
-      window.gtag("event", "level_test_view", {
-        event_category: "Engagement",
-        event_label: "Spanish Level Test",
-      });
-    }
+    window.dataLayer = window.dataLayer || [];
+
+    window.dataLayer.push({
+      event: "level_test_view",
+    });
   }, []);
 
   return (

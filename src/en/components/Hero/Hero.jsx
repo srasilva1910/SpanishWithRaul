@@ -44,12 +44,12 @@ const Hero = () => {
             rel="noopener noreferrer"
             className="whatsapp-link"
             onClick={() => {
-              if (window.gtag) {
-                window.gtag("event", "whatsapp_click", {
-                  event_category: "Lead",
-                  event_label: "Hero WhatsApp",
-                });
-              }
+              window.dataLayer = window.dataLayer || [];
+
+              window.dataLayer.push({
+                event: "whatsapp_click",
+                location: "hero",
+              });
             }}
           >
             <FaWhatsapp />
