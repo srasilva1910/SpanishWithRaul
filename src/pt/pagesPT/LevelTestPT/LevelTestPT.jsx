@@ -8,45 +8,43 @@ import "./LevelTestPT.css";
 const LevelTestPT = () => {
   return (
     <>
-      <Helmet htmlAttributes={{ lang: "pt" }}>
-        <title>
-          Examen de Nivel de Español Gratis (A1–C2) | Spanish With Raúl
-        </title>
+      <Helmet htmlAttributes={{ lang: "pt-BR" }}>
+  <title>Teste de Nível de Espanhol Gratuito (A1–C2) | Spanish With Raúl</title>
 
-        <meta
-          name="description"
-          content="Haz un examen de nivel de español gratis y descubre tu nivel según el MCER, de A1 a C2. Recibe orientación personalizada de un profesor de español con formación universitaria."
-        />
+  <meta
+    name="description"
+    content="Faça um teste de nível de espanhol gratuito e descubra seu nível de acordo com o QECR, de A1 a C2. Receba orientação personalizada de um professor de espanhol com formação universitária."
+  />
 
-        <link
-          rel="canonical"
-          href="https://spanishwithraul.com/es/examen-de-nivel"
-        />
+  <link
+    rel="canonical"
+    href="https://spanishwithraul.com/pt/teste-de-nivel"
+  />
 
-        <link
-          rel="alternate"
-          hrefLang="en"
-          href="https://spanishwithraul.com/level-test"
-        />
+  <link
+    rel="alternate"
+    hrefLang="en"
+    href="https://spanishwithraul.com/spanish-level-test"
+  />
 
-        <link
-          rel="alternate"
-          hrefLang="es"
-          href="https://spanishwithraul.com/es/examen-de-nivel"
-        />
+  <link
+    rel="alternate"
+    hrefLang="es"
+    href="https://spanishwithraul.com/es/examen-de-nivel"
+  />
 
-        <link
-          rel="alternate"
-          hrefLang="pt-BR"
-          href="https://spanishwithraul.com/pt/teste-de-nivel"
-        />
+  <link
+    rel="alternate"
+    hrefLang="pt-BR"
+    href="https://spanishwithraul.com/pt/teste-de-nivel"
+  />
 
-        <link
-          rel="alternate"
-          hrefLang="x-default"
-          href="https://spanishwithraul.com/level-test"
-        />
-      </Helmet>
+  <link
+    rel="alternate"
+    hrefLang="x-default"
+    href="https://spanishwithraul.com/spanish-level-test"
+  />
+</Helmet>
       <NavbarPT />
 
       <main className="level-test">
