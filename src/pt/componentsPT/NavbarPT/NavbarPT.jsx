@@ -36,9 +36,11 @@ const NavbarPT = () => {
           <Link to="/pt/teste-de-nivel" onClick={closeMenu}>
             Teste seu Nível
           </Link>
-
           <Link to="/pt/precos" onClick={closeMenu}>
             Cursos e Preços
+          </Link>
+          <Link to="/pt/blog" onClick={closeMenu}>
+            Blog
           </Link>
           <Link to="/pt/contato" onClick={closeMenu}>
             Contato

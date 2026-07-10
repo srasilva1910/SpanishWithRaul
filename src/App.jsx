@@ -5,6 +5,8 @@ import About from "./en/pages/About/About.jsx";
 import Method from "./en/pages/Method/Method.jsx";
 import LevelTest from "./en/pages/LevelTest/LevelTest.jsx";
 import Pricing from "./en/pages/Pricing/Pricing.jsx";
+import Blog from "./en/pages/Blog/Blog.jsx";
+import BlogPost from "./en/pages/Blog/BlogPost.jsx";
 import Contact from "./en/pages/Contact/Contact.jsx";
 
 import ScrollToTopES from "./es/componentsES/ScrollToTopES";
@@ -13,6 +15,8 @@ import AboutES from "./es/pagesES/AboutES/AboutES.jsx";
 import MethodES from "./es/pagesES/MethodES/MethodES.jsx";
 import LevelTestES from "./es/pagesES/LevelTestES/LevelTestES.jsx";
 import PricingES from "./es/pagesES/PricingES/PricingES.jsx";
+import BlogES from "./es/pagesES/BlogES/BlogES.jsx";
+import BlogPostES from "./es/pagesES/BlogES/BlogPostES.jsx";
 import ContactES from "./es/pagesES/ContactES/ContactES.jsx";
 
 import ScrollToTopPT from "./pt/componentsPT/ScrollToTopPT";
@@ -21,6 +25,8 @@ import AboutPT from "./pt/pagesPT/AboutPT/AboutPT.jsx";
 import MethodPT from "./pt/pagesPT/MethodPT/MethodPT.jsx";
 import LevelTestPT from "./pt/pagesPT/LevelTestPT/LevelTestPT.jsx";
 import PricingPT from "./pt/pagesPT/PricingPT/PricingPT.jsx";
+import BlogPT from "./pt/pagesPT/BlogPT/BlogPT.jsx";
+import BlogPostPT from "./pt/pagesPT/BlogPT/BlogPostPT.jsx";
 import ContactPT from "./pt/pagesPT/ContactPT/ContactPT.jsx";
 
 function App() {
@@ -36,6 +42,8 @@ function App() {
         <Route path="/method" element={<Method />} />
         <Route path="/level-test" element={<LevelTest />} />
         <Route path="/pricing" element={<Pricing />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/contact" element={<Contact />} />
 
         <Route path="/es" element={<HomeES />} />
@@ -43,6 +51,8 @@ function App() {
         <Route path="/es/metodo" element={<MethodES />} />
         <Route path="/es/examen-de-nivel" element={<LevelTestES />} />
         <Route path="/es/precios" element={<PricingES />} />
+        <Route path="/es/blog" element={<BlogES />} />
+        <Route path="/es/blog/:slug" element={<BlogPostES />} />
         <Route path="/es/contacto" element={<ContactES />} />
 
         <Route path="/pt" element={<HomePT />} />
@@ -50,6 +60,8 @@ function App() {
         <Route path="/pt/metodo" element={<MethodPT />} />
         <Route path="/pt/teste-de-nivel" element={<LevelTestPT />} />
         <Route path="/pt/precos" element={<PricingPT />} />
+        <Route path="/pt/blog" element={<BlogPT />} />
+        <Route path="/pt/blog/:slug" element={<BlogPostPT />} />
         <Route path="/pt/contato" element={<ContactPT />} />
       </Routes>
     </BrowserRouter>

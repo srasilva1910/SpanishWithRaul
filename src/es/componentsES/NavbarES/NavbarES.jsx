@@ -39,6 +39,9 @@ const NavbarES = () => {
           <Link to="/es/precios" onClick={closeMenu}>
             Cursos y Precios
           </Link>
+          <Link to="/es/blog" onClick={closeMenu}>
+            Blog
+          </Link>
           <Link to="/es/contacto" onClick={closeMenu}>
             Contacto
           </Link>
