@@ -50,7 +50,7 @@ const HeardInMexicoPostPT = ({ post }) => {
           )}
 
           <Link to="/pt/blog" className="back-link">
-            ← Back to Blog
+            ← Voltar ao Blog
           </Link>
         </article>
       </main>

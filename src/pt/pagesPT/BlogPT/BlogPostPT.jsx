@@ -21,9 +21,9 @@ const BlogPostPT = () => {
         <NavbarPT />
 
         <main className="post-not-found">
-          <h1>Article not found</h1>
+          <h1>Artigo nao encontrado</h1>
           <Link to="/pt/blog" className="back-link">
-            Back to Blog
+            Voltar ao Blog
           </Link>
         </main>
 

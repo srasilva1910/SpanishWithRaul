@@ -21,9 +21,9 @@ const BlogPostES = () => {
         <NavbarES />
 
         <main className="post-not-found">
-          <h1>Article not found</h1>
+          <h1>No encontrado</h1>
           <Link to="/es/blog" className="back-link">
-            Back to Blog
+            Regresar al Blog
           </Link>
         </main>
 

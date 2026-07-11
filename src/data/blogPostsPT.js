@@ -2,36 +2,36 @@ export const blogPosts = [
   {
     slug: "escutei-no-mexico-mande",
     seriesType: "escutei-no-mexico",
-    category: "Escutei no Mexico",
-    title: "Escutei no Mexico: ¿Mande?",
+    category: "Escutei no México",
+    title: "Escutei no México: ¿Mande?",
     seoTitle: "O que '¿Mande?' significa no Mexico? | Spanish With Raúl",
     seoDescription:
-      "Learn what '¿Mande?' means in Mexican Spanish and how to use it naturally.",
+      "Aprenda o que '¿Mande?' significa no espanhol mexicano e como usar essa expressão de forma natural.",
     media: {
       type: "image",
-      src: "/images/blog/heardinmexico1.jpg",
+      src: "/images/blog/heardinmexico1PT.jpg",
       alt: "Mexican Spanish expression ¿Mande?",
     },
 
     introduction:
-      "One of the first expressions many Spanish learners notice in Mexico is '¿Mande?'.",
+      "Uma das primeiras expressões que muitos estudantes de espanhol escutam no México é '¿Mande?'.",
   },
 
   {
-    slug: "heard-in-mexico-ahorita",
-    seriesType: "heard-in-mexico",
-    category: "Heard in Mexico",
-    title: "Heard in Mexico: Ahorita",
-    seoTitle: "What Does 'Ahorita' Mean in Mexico? | Spanish With Raúl",
+    slug: "escutei-no-mexico-ahorita",
+    seriesType: "escutei-no-mexico",
+    category: "Escutei no México",
+    title: "Escutei no México: Ahorita",
+    seoTitle: "O que 'Ahorita' significa no Mexico? | Spanish With Raúl",
     seoDescription:
-      "Learn what 'Ahorita' means in Mexican Spanish and how to use it naturally.",
+      "Aprenda o que 'Ahorita' significa no espanhol mexicano e como usar essa expressão de forma natural.",
     media: {
       type: "facebook",
-      src: "https://www.facebook.com/plugins/video.php?height=423&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F772407619231633%2F&show_text=false&width=560&t=0",
+      src: "https://www.facebook.com/plugins/video.php?height=423&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F848356718084964%2F&show_text=false&width=560&t=0",
     },
 
     introduction:
-      "One of the first expressions many Spanish learners notice in Mexico is 'Ahorita'.",
+      "Uma das primeiras expressões que muitos estudantes de espanhol escutam no México é 'Ahorita'.",
   },
 
   {
@@ -79,73 +79,74 @@ export const blogPosts = [
   },
 
   {
-    slug: "heard-in-mexico-regalar",
-    seriesType: "heard-in-mexico",
-    category: "Heard in Mexico",
-    title: "Heard in Mexico: Regalar",
-    seoTitle: "What Does 'Regalar' Mean in Mexico? | Spanish With Raúl",
+    slug: "escutei-no-mexico-regalar",
+    seriesType: "escutei-no-mexico",
+    category: "Escutei no México",
+    title: "Escutei no México: Regalar",
+    seoTitle: "O que 'Regalar' significa no Mexico? | Spanish With Raúl",
     seoDescription:
-      "Learn what 'Regalar' means in Mexican Spanish and how to use it naturally.",
+      "Aprenda o que 'Regalar' significa no espanhol mexicano e como usar essa expressão de forma natural.",
     media: {
       type: "facebook",
-      src: "https://www.facebook.com/plugins/video.php?height=420&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1898910420783391%2F&show_text=false&width=560&t=0",
+      src: "https://www.facebook.com/plugins/video.php?height=420&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F4513115452256944%2F&show_text=false&width=560&t=0",
     },
 
     introduction:
-      "One of the first expressions many Spanish learners notice in Mexico is 'Regalar'.",
+      "Uma das primeiras expressões que muitos estudantes de espanhol escutam no México é 'Regalar'.",
   },
 
   {
-    slug: "heard-in-mexico-gustar",
-    seriesType: "heard-in-mexico",
-    category: "Heard in Mexico",
-    title: "Heard in Mexico: Gustar",
-    seoTitle: "What Does 'Gustar' Mean in Mexico? | Spanish With Raúl",
+    slug: "escutei-no-mexico-gustar",
+    seriesType: "escutei-no-mexico",
+    category: "Escutei no México",
+    title: "Escutei no México: Gustar",
+    seoTitle: "O que 'Gustar' significa no Mexico? | Spanish With Raúl",
     seoDescription:
-      "Learn what 'Gustar' means in Mexican Spanish and how to use it naturally.",
+      "Aprenda o que 'Gustar' significa no espanhol mexicano e como usar essa expressão de forma natural.",
     media: {
       type: "facebook",
       orientation: "portrait",
-      src: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1230010365804904%2F&show_text=false&width=380&t=0",
+      src: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F3276524362519067%2F&show_text=false&width=380&t=0",
     },
 
     introduction:
-      "One of the first expressions many Spanish learners notice in Mexico is 'Gustar'.",
+      "Uma das primeiras expressões que muitos estudantes de espanhol escutam no México é 'Gustar'.",
   },
 
   {
-    slug: "heard-in-mexico-tomar",
-    seriesType: "heard-in-mexico",
-    category: "Heard in Mexico",
-    title: "Heard in Mexico: Tomar",
-    seoTitle: "What Does 'Tomar' Mean in Mexico? | Spanish With Raúl",
+    slug: "escutei-no-mexico-exquisito",
+    seriesType: "escutei-no-mexico",
+    category: "Escutei no México",
+    title: "Escutei no México: Exquisito",
+    seoTitle: "O que 'Exquisito' significa no Mexico? | Spanish With Raúl",
     seoDescription:
-      "Learn what 'Tomar' means in Mexican Spanish and how to use it naturally.",
-    media: {
-      type: "facebook",
-      src: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1553749159494723%2F&show_text=false&width=380&t=0",
-    },
-
-    introduction:
-      "One of the first expressions many Spanish learners notice in Mexico is 'Tomar'.",
-  },
-
-  {
-    slug: "heard-in-mexico-llevar",
-    seriesType: "heard-in-mexico",
-    category: "Heard in Mexico",
-    title: "Heard in Mexico: Llevar",
-    seoTitle: "What Does 'Llevar' Mean in Mexico? | Spanish With Raúl",
-    seoDescription:
-      "Learn what 'Llevar' means in Mexican Spanish and how to use it naturally.",
+      "Aprenda o que 'Exquisito' significa no espanhol mexicano e como usar essa expressão de forma natural.",
     media: {
       type: "image",
-      src: "/images/blog/heardinmexico6.jpg",
+      src: "/images/blog/heardinmexico5PT.jpg",
       alt: "Mexican Spanish expression Llevar",
     },
 
     introduction:
-      "One of the first expressions many Spanish learners notice in Mexico is 'Llevar'.",
+      "Uma das primeiras expressões que muitos estudantes de espanhol escutam no México é 'Exquisito'.",
+  },
+
+  {
+    slug: "escutei-no-mexico-pegar",
+    seriesType: "escutei-no-mexico",
+    category: "Escutei no México",
+    title: "Escutei no México: Pegar",
+    seoTitle: "O que 'Pegar' significa no Mexico? | Spanish With Raúl",
+    seoDescription:
+      "Aprenda o que 'Pegar' significa no espanhol mexicano e como usar essa expressão de forma natural.",
+    media: {
+      type: "image",
+      src: "/images/blog/heardinmexico6PT.jpg",
+      alt: "Mexican Spanish expression Llevar",
+    },
+
+    introduction:
+      "Uma das expressões mais comuns do Brasil que tem outro significado no México é 'Pegar'.",
   },
 
   {

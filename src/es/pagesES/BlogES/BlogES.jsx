@@ -42,7 +42,7 @@ const BlogES = () => {
               <p>{post.introduction}</p>
 
               <Link to={`/es/blog/${post.slug}`} className="blog-link">
-                Read article
+                Leer Articulo
               </Link>
             </article>
           ))}

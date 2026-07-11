@@ -41,7 +41,7 @@ const BlogPT = () => {
               <p>{post.introduction}</p>
 
               <Link to={`/pt/blog/${post.slug}`} className="blog-link">
-                Read article
+                Ler Artigo
               </Link>
             </article>
           ))}
