@@ -10,11 +10,7 @@ const FooterES = () => {
       <div className="footer-content">
         <h2>Spanish With Raul</h2>
 
-        <p>
-          La estructura de un curso universitario.
-          <br />
-          La atención de un profesor particular.
-        </p>
+        <p>Programa Universitario con Tutoría Personal </p>
 
         <div className="footer-socials">
           <a href="#">

@@ -10,10 +10,7 @@ const Footer = () => {
       <div className="footer-content">
         <h2>Spanish With Raul</h2>
 
-        <p>
-          University-level Spanish lessons with the attention of a private
-          tutor.
-        </p>
+        <p>University Curriculum with Personal Tutoring.</p>
 
         <div className="footer-socials">
           <a href="#">

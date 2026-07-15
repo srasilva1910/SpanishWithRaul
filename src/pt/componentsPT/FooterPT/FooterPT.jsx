@@ -10,10 +10,7 @@ const FooterPT = () => {
       <div className="footer-content">
         <h2>Spanish With Raul</h2>
 
-        <p>
-          A estrutura de um curso universitário.
-          <br />A atenção de um professor particular.{" "}
-        </p>
+        <p>Programa Universitário com Tutoria Personalizada </p>
 
         <div className="footer-socials">
           <a href="#">

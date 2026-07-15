@@ -59,31 +59,25 @@ const About = () => {
             <p>
               Hello, I'm Raúl Ramírez, a Spanish professor from Mexico City with
               a PhD in Hispanic Language and Literature from the National
-              Autonomous University of Mexico (UNAM).
+              Autonomous University of Mexico (UNAM). For more than twenty
+              years, I have taught Spanish language, literature, communication,
+              and academic writing at universities in Mexico and Brazil,
+              including the University of São Paulo, one of Latin America's
+              leading universities.
             </p>
             <p>
-              For more than two decades, I have taught language, literature,
-              communication, and academic writing at universities in Mexico and
-              Brazil, including the University of São Paulo, one of the leading
-              universities in Latin America.
+              Working within university programs has allowed me to teach through
+              an academic tradition built on decades of research, collaboration,
+              and classroom experience. This approach provides a clear and
+              progressive path for developing strong communication skills, from
+              everyday interactions to academic and professional contexts.
             </p>
             <p>
-              My academic work has focused on language, literature, rhetoric,
-              and communication. Throughout the years, I have become
-              increasingly interested in a question that also lies at the heart
-              of language learning: how people understand, interpret, and
-              express ideas clearly.
-            </p>
-            <p>
-              Teaching Spanish allows me to bring together these interests. I
-              enjoy helping students not only communicate in Spanish, but also
-              understand how the language works and develop confidence in using
-              it effectively.
-            </p>
-            <p>
-              Today, I work primarily with professionals and university students
-              who are looking for a structured, thoughtful, and personalized
-              approach to learning Spanish.
+              Today, I help people who need Spanish for important personal,
+              academic, or professional goals and are looking for the kind of
+              structured, high-quality instruction typically found in
+              universities and language institutes, but in a flexible,
+              personalized online format.
             </p>
             <Link to="/contact" className="cta-button">
               Book a Free Trial Lesson

@@ -17,9 +17,8 @@ const Hero = () => {
 
       <div className="hero-content">
         <h1>
-          The structure of a university course.
-          <br />
-          The attention of a private tutor.
+          University Curriculum <br />
+          with Personal Tutoring
         </h1>
 
         <div className="hero-divider"></div>

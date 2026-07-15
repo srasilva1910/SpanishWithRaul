@@ -17,9 +17,7 @@ const HeroES = () => {
 
       <div className="hero-content">
         <h1>
-          La estructura de un curso universitario.
-          <br />
-          La atención de un profesor particular.
+          Programa Universitario <br /> con Tutoría Personal
         </h1>
 
         <div className="hero-divider"></div>

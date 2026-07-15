@@ -17,8 +17,8 @@ const HeroPT = () => {
 
       <div className="hero-content">
         <h1>
-          A estrutura de um curso universitário. <br />A atenção de um professor
-          particular.{" "}
+          Programa Universitário <br />
+          com Tutoria Personalizada{" "}
         </h1>
 
         <div className="hero-divider"></div>
