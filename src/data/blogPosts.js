@@ -175,6 +175,24 @@ export const blogPosts = [
   },
 
   {
+    slug: "heard-in-mexico-receta",
+    seriesType: "heard-in-mexico",
+    category: "Heard in Mexico",
+    title: "Heard in Mexico: Receta",
+    seoTitle: "What Does 'Receta' Mean in Mexico? | Spanish With Raúl",
+    seoDescription:
+      "Learn what 'Receta' means in Mexican Spanish and how to use it naturally.",
+    media: {
+      type: "image",
+      src: "/images/blog/heardinmexico7.jpg",
+      alt: "Mexican Spanish expression Receta",
+    },
+
+    introduction:
+      "One of the first expressions many Spanish learners notice in Mexico is Receta.",
+  },
+
+  {
     slug: "literatura-en-voz-alta-poema",
     seriesType: "literatura-en-voz-alta",
     category: "Literatura en Voz Alta",

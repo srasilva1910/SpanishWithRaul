@@ -142,7 +142,7 @@ export const blogPosts = [
     media: {
       type: "image",
       src: "/images/blog/heardinmexico6PT.jpg",
-      alt: "Mexican Spanish expression Llevar",
+      alt: "Mexican Spanish expression Pegar",
     },
 
     introduction:
@@ -173,6 +173,24 @@ export const blogPosts = [
         ],
       },
     ],
+  },
+
+  {
+    slug: "escutei-no-mexico-vaso",
+    seriesType: "escutei-no-mexico",
+    category: "Escutei no México",
+    title: "Escutei no México: Vaso",
+    seoTitle: "O que 'Vaso' significa no Mexico? | Spanish With Raúl",
+    seoDescription:
+      "Aprenda o que 'Vaso' significa no espanhol mexicano e como usar essa expressão de forma natural.",
+    media: {
+      type: "image",
+      src: "/images/blog/heardinmexico7PT.jpg",
+      alt: "Mexican Spanish expression Vaso",
+    },
+
+    introduction:
+      "Uma das expressões mais comuns do Brasil que tem outro significado no México é 'Vaso'.",
   },
 
   {
