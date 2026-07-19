@@ -31,6 +31,10 @@
   margin-bottom: 1.5rem;
 }
 
+.post-section p {
+  white-space: pre-line;
+}
+
 .post-divider {
   width: 260px;
   height: 1px;

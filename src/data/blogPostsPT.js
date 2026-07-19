@@ -194,6 +194,42 @@ export const blogPosts = [
   },
 
   {
+    slug: "minuto-literario-la-retorica-en-sor-juana",
+    seriesType: "minuto-literario",
+    category: "Minuto Literario",
+    title: "Minuto Literario #4",
+    seoTitle: "Minuto Literario: La Retorica en Sor Juana | Spanish With Raúl",
+    seoDescription:
+      "A short literary reflection for Spanish learners interested in literature and culture.",
+    introduction:
+      'Cuando decimos que un poema es "muy retórico", casi nunca es un elogio. ',
+    sections: [
+      {
+        paragraphs: [
+          'Cuando decimos que un poema es "muy retórico", casi nunca es un elogio. Hoy solemos asociar la retórica con un artificio hueco y carente de valor. Pero en los reinos españoles del siglo XVII, las cosas eran muy distintas. Hablemos de un fragmento de la lira intitulada “Que expresan sentimientos de ausente” de Sor Juana Inés de la Cruz:',
+          [
+            `"[...]
+
+              óyeme con los ojos,
+              ya que están tan distantes los oídos,
+
+              [...]
+
+              y ya que a ti no llega mi voz ruda,
+              óyeme sordo, pues me quejo muda."`,
+          ],
+          "De haberlo podido conocer, Gracián hubiera citado este poema entre sus ejemplos, y quizá de los más brillantes, de concepto por contraposición. ",
+          "A decir verdad, el autor de la Agudeza y arte de ingenio solo es apreciado por algunos académicos; ha sido despreciado por los hombres de letras desde el siglo XIX, e ignorado absolutamente por los demás. Por ende, al enunciar esta hipótesis fantástica, no agrego nada de valor al poema.  ",
+          "Con todo, a Gracián lo recuerdan en Zaragoza, su tierra, y Sor Juana es casi idolatrada en México. La heroína, no su poesía.",
+          "Recuerdo que en uno de sus programas radiofónicos, hoy consultables en Youtube, don Ernesto de la Peña sostenía que las líneas citadas eran (parafraseo desde la memoria) la expresión de una percepción auténtica, algo sensual y dislocado llamado sinestesia, con lo que colocaba a nuestra poetisa entre los exploradores de las percepciones sensuales del siglo XIX. Don Ernesto hacía una defensa contra la opinión de otro ilustre mexicano, este del siglo antepasado, que en su Historia crítica de la poesía en México había visto en esos versos un exceso de retórica, me refiero a Francisco Pimentel. ",
+          "Quizá Pimentel tenía razón; y eso no disminuye en nada la grandeza de Sor Juana. Para un escritor del siglo XVII, la retórica no era un adorno vacío. Como explica Baltasar Gracián en su Agudeza, era una forma de descubrir relaciones profundas entre las cosas, una manera de conocer el mundo.",
+          "Tal vez el problema no sea que Sor Juana escribiera con exceso de retórica, sino que nosotros hemos perdido la sensibilidad necesaria para apreciar la retórica de nuestro Siglo de Oro. ",
+        ],
+      },
+    ],
+  },
+
+  {
     slug: "literatura-en-voz-alta-poema",
     seriesType: "literatura-en-voz-alta",
     category: "Literatura en Voz Alta",
