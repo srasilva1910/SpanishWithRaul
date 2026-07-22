@@ -229,6 +229,24 @@ export const blogPosts = [
   },
 
   {
+    slug: "heard-in-mexico-bolillo-telera",
+    seriesType: "heard-in-mexico",
+    category: "Heard in Mexico",
+    title: "Heard in Mexico: ¿Bolillo o Telera?",
+    seoTitle:
+      "What Does 'Bolillo' and 'Telera' Mean in Mexico? | Spanish With Raúl",
+    seoDescription:
+      "Learn what 'bolillo' and 'telera' mean in Mexican Spanish and how to use it naturally.",
+    media: {
+      type: "image",
+      src: "/images/blog/heardinmexico8.jpg",
+      alt: "Mexican Spanish expression bolillo and telera",
+    },
+
+    introduction: "¿Bolillo o Telera? Which one do you prefer?",
+  },
+
+  {
     slug: "literatura-en-voz-alta-poema",
     seriesType: "literatura-en-voz-alta",
     category: "Literatura en Voz Alta",
