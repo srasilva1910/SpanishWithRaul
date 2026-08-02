@@ -326,4 +326,33 @@ export const blogPosts = [
 
     introduction: "Someone says '¡Aguas!' to you. What does that means?",
   },
+
+  {
+    slug: "minuto-literario-las-sombras-y-los-autores",
+    seriesType: "minuto-literario",
+    category: "Minuto Literario",
+    title: "Minuto Literario #6",
+    seoTitle:
+      "Minuto Literario: Las sombras griegas y los autores | Spanish With Raúl",
+    seoDescription:
+      "A short literary reflection for Spanish learners interested in literature and culture.",
+    introduction: '"Amo a la que me odia; odio a la que me ama." ',
+    sections: [
+      {
+        paragraphs: [
+          "Anoche, una idea me tomó por sorpresa y me dejó sin dormir largas horas.",
+          "En la Ilíada, Helena le dice a Héctor: “Zeus nos dio mala suerte a fin de que a los venideros les sirvamos de asunto para sus cantos” (VI, vv. 357-358).",
+          "Y en la Odisea, el rey Alcínoo vuelve sobre lo mismo. Le dice a Ulises, quien había estado llorando mientras un aedo cantaba las desgracias de troyanos y griegos:",
+          "Voluntad ello fue de los dioses que urdieron a tantos",
+          "la ruina por dar que cantar a los hombres futuros (VIII, vv. 579-580).",
+          "Me parece una de las afirmaciones más extrañas que he visto en la literatura griega. No dice solamente que los poetas canten las desgracias de los hombres; dice algo mucho más inquietante: que las desgracias existen para que los poetas tengan qué cantar.",
+          "Alrededor de dos mil cuatrocientos años después, un español nacido en Puerto Rico, Alonso Ramírez, salió de la casa de sus padres en busca de un mejor porvenir económico. Echó suerte en Nueva España y luego se embarcó hacia las Filipinas. No se quedó ahí; anduvo por varios lugares de Asia y fue esclavizado por unos piratas ingleses. Sufrió casi todo lo que un hombre de su tiempo podía sufrir, sin faltar habre y naufragios. Cuando recuperó su libertad, no sin sufrimientos, consiguió volver a Nueva España, por la costa atlántica, y de milagro pudo llegar a la capital donde fue recibido por el Virrey. Este escuchó  el resumen de sus infortunios y tomó una decisión curiosa. Lo envió con don Carlos de Sigüenza y Góngora para que relatara con detalle todo lo ocurrido. Y así nació Los infortunios de Alonso Ramírez.",
+          "Hasta aquí parecería que Homero tenía razón. Las desgracias de unos terminan convirtiéndose en la literatura de otros. Pero en la noche anterior me punzó la duda. Decimos que Aquiles sobrevivió gracias a Homero. Que Helena sigue viva. Que Héctor. Que Ulises. ¿Es verdad? Ellos, si vivieron, murieron hace muchísimo tiempo. Lo que tenemos son personajes. O quizá habría que decirlo con una palabra griega: εἴδωλα (eidola), imágenes, apariciones, sombras. No las personas de carne y hueso, sino la figura que las sustituyó en el poema. Nosotros no conocemos a Aquiles. Conocemos al Aquiles de la Ilíada.",
+          "Y entonces la duda empezó a crecer. Porque si eso ocurre con los héroes, ¿por qué no habría de ocurrir también con los autores? ¿Quién fue realmente Homero? No lo sabemos. Ignoramos su rostro, su voz, incluso si fue un solo hombre. Y de Sigüenza y Góngora conocemos infinitamente menos que de sus libros. También sus pulsaciones desaparecieron. Quedó la obra.",
+          "Llevamos siglos repitiendo una idea quizás equivocada. Se dice que la literatura vence la muerte. Yo ya no estoy tan seguro. Porque la literatura no conserva a los héroes; los reemplaza por personajes. No conserva a los autores; también son sustituidos por apariciones de las obras. (Esto, tal vez, ya lo había padecido Borges, y le incomodaba la existencia de “Borges”, del fantasma, que ni siquiera se había esperado a que el de carne y hueso muriera para ocupar su lugar). ",
+          "La sombra de la obra se hace más verosímil que el que la ha maquinado, que su arquetipo, por decir así. ¿Será que la literatura solo certifica lo que le ocurre a todos los hombres, aunque no certifique a todos?",
+        ],
+      },
+    ],
+  },
 ];
