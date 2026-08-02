@@ -355,4 +355,28 @@ export const blogPosts = [
       },
     ],
   },
+
+  {
+    slug: "literatura-en-voz-alta-monologo-del-insumiso",
+    seriesType: "literatura-en-voz-alta",
+    category: "Literatura en Voz Alta",
+    title: "Literatura en Voz Alta: Monologo del Insumiso - J. J. Arreola",
+    seoTitle: "Literatura en Voz Alta | Spanish With Raúl",
+    seoDescription:
+      "Listen to Spanish literature read aloud and improve your pronunciation and listening skills.",
+
+    media: {
+      type: "facebook",
+      src: "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Freel%2F1362595062722402%2F&show_text=false&width=560&t=0",
+    },
+    introduction: "Voz de Raul Ramirez Ortiz",
+    sections: [
+      {
+        title: "Before you listen",
+        paragraphs: [
+          'En esta lectura en alta voz, podrás conocer un cuento no muy conocido de Juan José Arreola que se encuentra en Confabulario y se intitula "Monólogo del insumiso". Es una especie de parodia y homenaje al mismo tiempo. Una forma ingeniosa de acercarnos a la personalidad de Manuel Acuña, pues este es el personaje, claramente aludidio por arreola, no obstante en la dedicatoria solo haya colocado las iniciales  (M. A.).',
+        ],
+      },
+    ],
+  },
 ];
