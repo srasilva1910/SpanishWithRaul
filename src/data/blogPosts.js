@@ -304,9 +304,26 @@ export const blogPosts = [
         paragraphs: [
           "En este video hago una lectura en voz alta del poema, respetando su ritmo y su tono reflexivo, para acercarlo tanto a los lectores de Borges como a estudiantes de literatura, filosofía y lengua española.",
           "Si te interesa la poesía de Borges, la literatura latinoamericana o las grandes obras de la literatura en español, encontrarás más lecturas y comentarios en este canal.",
-          "¿Qué interpretación haces de este poema? Te leo en los comentarios.",
+          "¿Qué interpretación haces de este poema?",
         ],
       },
     ],
+  },
+
+  {
+    slug: "heard-in-mexico-aguas",
+    seriesType: "heard-in-mexico",
+    category: "Heard in Mexico",
+    title: "Heard in Mexico: ¡Aguas!",
+    seoTitle: "What Does '¡Aguas!' Mean in Mexico? | Spanish With Raúl",
+    seoDescription:
+      "Learn what '¡Aguas!' mean in Mexican Spanish and how to use it naturally.",
+    media: {
+      type: "image",
+      src: "/images/blog/heardinmexico9.jpg",
+      alt: "Mexican Spanish expression ¡Aguas!",
+    },
+
+    introduction: "Someone says '¡Aguas!' to you. What does that means?",
   },
 ];

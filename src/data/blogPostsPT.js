@@ -309,4 +309,21 @@ export const blogPosts = [
       },
     ],
   },
+
+  {
+    slug: "escutei-no-mexico-aguas",
+    seriesType: "escutei-no-mexico",
+    category: "Escutei no México",
+    title: "Escutei no México: ¡Aguas!",
+    seoTitle: "O que '¡Aguas!' significan no Mexico? | Spanish With Raúl",
+    seoDescription:
+      "Aprenda o que '¡Aguas!' significan no espanhol mexicano e como usar essa expressão de forma natural.",
+    media: {
+      type: "image",
+      src: "/images/blog/heardinmexico9PT.jpg",
+      alt: "Mexican Spanish expression bolillo and telera",
+    },
+
+    introduction: "Alguem te diz '¡Aguas!' de repente. O que querem dizer?",
+  },
 ];
