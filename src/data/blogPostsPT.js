@@ -248,22 +248,63 @@ export const blogPosts = [
   },
 
   {
-    slug: "literatura-en-voz-alta-poema",
+    slug: "minuto-literario-la-retorica-el-des-amor-en-la-literatura",
+    seriesType: "minuto-literario",
+    category: "Minuto Literario",
+    title: "Minuto Literario #5",
+    seoTitle:
+      "Minuto Literario: El (des)amor en la literatura | Spanish With Raúl",
+    seoDescription:
+      "A short literary reflection for Spanish learners interested in literature and culture.",
+    introduction: '"Amo a la que me odia; odio a la que me ama." ',
+    sections: [
+      {
+        paragraphs: [
+          "Ausonio (siglo IV), en un diálogo con Venus, escribió esta sentencia:",
+          "Amo a la que me odia; odio a la que me ama. (Hanc amo quae me odit, contra illam quae me amat, odi) ",
+          "Durante más de mil años, ese pequeño artefacto pasó de mano en mano. Los poetas españoles del Siglo de Oro lo hicieron suyo. Boscán, Lope, Calderón… Cada uno le dio una forma distinta; e incluso con ello le dieron forma a sus obras, como a los enredos amorosos. ",
+          "Sor Juana lo tomó tres veces.",
+          "Primero:",
+          "Que no me quiera Fabio, al verse amado…",
+          "Luego:",
+          "Feliciano me adora y le aborrezco…",
+          "Y finalmente:",
+          "Al que ingrato me deja, busco amante…",
+          "Sor Juana no escribió tres variaciones sobre el mismo tema, sino un tríptico (el descubrimiento es de Alatorre) con el que realiza un razonamiento. El primero plantea el conflicto; el segundo demuestra que cualquier camino conduce al sufrimiento; el tercero, anunciado por su propio epígrafe, se atreve a resolverlo: si el gusto nos lleva hacia quien no nos ama, la razón debe imponerse y elegir el mal menor. ",
+          "Tres siglos después, Carlos Drummond de Andrade recoge el mismo objeto:",
+          "«João amava Teresa que amava Raimundo que amava Maria…»",
+          "Pero ya no juega el mismo juego. Hasta entonces, los autores parecían suponer que el amor obedecía a alguna clase de norma, aunque fuera cruel. Drummond vuelca el tablero. La cadena ya no conduce a una explicación, sino a una ironía. El mundo deja de parecer un enigma para parecer un accidente:",
+          "João foi para os Estados Unidos, Teresa para o convento,",
+          "[...] e Lili casou com J. Pinto Fernandes",
+          "que não tinha entrado na história.",
+          "Un mismo objeto se ha transformado porque fue usado de manera diversa por manos distintas. ¿Qué poeta lo recogerá ahora? ¿Cómo será este viejo tópico dentro de cien años?",
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "literatura-en-voz-alta-poema-cristo-en-la-cruz",
     seriesType: "literatura-en-voz-alta",
     category: "Literatura en Voz Alta",
-    title: "Literatura en Voz Alta: A Short Reading",
+    title: "Literatura en Voz Alta: Cristo en la Cruz - J. L. Borges",
     seoTitle: "Literatura en Voz Alta | Spanish With Raúl",
     seoDescription:
       "Listen to Spanish literature read aloud and improve your pronunciation and listening skills.",
-    audio: "/audio/blog/poema.mp3",
+    media: {
+      type: "facebook",
+      src: "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Freel%2F989418840767902%2F&show_text=false&width=560&t=0",
+    },
     introduction:
-      "Listening to literature read aloud can help you notice rhythm, intonation, and pronunciation.",
+      "Cristo en la cruz, de Jorge Luis Borges, es uno de los poemas más profundos y menos conocidos del escritor argentino.",
+
     sections: [
       {
         title: "Before you listen",
         paragraphs: [
-          "Focus on the rhythm of the language, not only on understanding every word.",
-          "You can listen once for general meaning and a second time for pronunciation details.",
+          "En este video hago una lectura en voz alta del poema, respetando su ritmo y su tono reflexivo, para acercarlo tanto a los lectores de Borges como a estudiantes de literatura, filosofía y lengua española.",
+          "Si te interesa la poesía de Borges, la literatura latinoamericana o las grandes obras de la literatura en español, encontrarás más lecturas y comentarios en este canal.",
+          "¿Qué interpretación haces de este poema?",
         ],
       },
     ],

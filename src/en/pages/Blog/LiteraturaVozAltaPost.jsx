@@ -26,14 +26,28 @@ const LiteraturaVozAltaPost = ({ post }) => {
 
           <div className="post-divider"></div>
 
-          <div className="audio-card">
-            <p>Listen to the reading</p>
+          {post.media?.type === "image" && (
+            <div className="post-image-wrapper">
+              <img src={post.media.src} alt={post.media.alt} />
+            </div>
+          )}
 
-            <audio controls>
-              <source src={post.audio} type="audio/mpeg" />
-              Your browser does not support the audio element.
-            </audio>
-          </div>
+          {post.media?.type === "facebook" && (
+            <div
+              className={`post-video ${
+                post.media.orientation === "portrait" ? "portrait" : "landscape"
+              }`}
+            >
+              <iframe
+                src={post.media.src}
+                title={post.title}
+                scrolling="no"
+                frameBorder="0"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                allowFullScreen
+              />
+            </div>
+          )}
 
           <p className="post-intro">{post.introduction}</p>
 
