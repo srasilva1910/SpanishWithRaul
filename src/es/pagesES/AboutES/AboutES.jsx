@@ -74,35 +74,28 @@ const AboutES = () => {
             <h1>Sobre mí</h1>
             <div className="about-divider"></div>
             <p>
-              Hola, soy Raúl Ramírez, profesor de español de la Ciudad de México
-              y doctor en Lengua y Literatura Hispánicas por la Universidad
-              Nacional Autónoma de México (UNAM).{" "}
+              Hola, soy Raúl Ramírez, profesor de español originario de Ciudad
+              de México y doctor en Lengua y Literatura Hispánicas por la
+              Universidad Nacional Autónoma de México (UNAM). Durante más de
+              veinte años, he enseñado lengua española, literatura, comunicación
+              y escritura académica en universidades de México y Brasil, entre
+              ellas la Universidad de São Paulo, una de las principales
+              universidades de América Latina.{" "}
             </p>
             <p>
-              Durante más de dos décadas he impartido cursos de lengua,
-              literatura, comunicación y redacción académica en universidades de
-              México y Brasil, incluyendo la Universidad de São Paulo, una de
-              las instituciones de educación superior más prestigiosas de
-              América Latina.
+              Mi experiencia en programas universitarios me ha permitido enseñar
+              a partir de una tradición académica respaldada por décadas de
+              investigación, colaboración y experiencia en el aula. Este enfoque
+              ofrece un camino claro y progresivo para desarrollar sólidas
+              habilidades de comunicación, desde las interacciones cotidianas
+              hasta los contextos académicos y profesionales.
             </p>
             <p>
-              Mi trabajo académico se ha centrado en el estudio de la lengua, la
-              literatura, la retórica y la comunicación. Con el paso de los
-              años, me ha interesado cada vez más una pregunta que también se
-              encuentra en el centro del aprendizaje de idiomas: cómo las
-              personas comprenden, interpretan y expresan ideas con claridad.
-            </p>
-            <p>
-              La enseñanza del español me permite integrar todos estos
-              intereses. Disfruto ayudando a mis estudiantes no solo a
-              comunicarse en español, sino también a comprender cómo funciona el
-              idioma y a desarrollar la confianza necesaria para utilizarlo de
-              manera efectiva.
-            </p>
-            <p>
-              Actualmente trabajo principalmente con profesionales y estudiantes
-              universitarios que buscan un enfoque estructurado, reflexivo y
-              personalizado para aprender español.
+              Hoy acompaño a personas que necesitan el español para alcanzar
+              objetivos personales, académicos o profesionales importantes y que
+              buscan el tipo de enseñanza estructurada y de alta calidad que
+              tradicionalmente se encuentra en universidades e institutos de
+              idiomas, pero en un formato en línea flexible y personalizado.
             </p>
             <Link to="/es/contacto" className="cta-button">
               Reserva una clase de prueba gratuita{" "}

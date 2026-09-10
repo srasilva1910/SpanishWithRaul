@@ -76,31 +76,26 @@ const AboutPT = () => {
             <p>
               Olá, sou Raúl Ramírez, professor de espanhol da Cidade do México e
               doutor em Língua e Literatura Hispânicas pela Universidade
-              Nacional Autônoma do México (UNAM).{" "}
+              Nacional Autônoma do México (UNAM). Há mais de vinte anos, ensino
+              língua espanhola, literatura, comunicação e escrita acadêmica em
+              universidades do México e do Brasil, entre elas a Universidade de
+              São Paulo, uma das principais universidades da América
+              Latina.{" "}
             </p>
             <p>
-              Há mais de duas décadas, leciono língua, literatura, comunicação e
-              redação acadêmica em universidades do México e do Brasil,
-              incluindo a Universidade de São Paulo, uma das instituições de
-              ensino superior mais prestigiadas da América Latina.
+              Minha experiência em programas universitários me permitiu ensinar
+              a partir de uma tradição acadêmica construída ao longo de décadas
+              de pesquisa, colaboração e experiência em sala de aula. Essa
+              abordagem oferece um caminho claro e progressivo para o
+              desenvolvimento de sólidas habilidades de comunicação, desde as
+              interações do dia a dia até contextos acadêmicos e profissionais.
             </p>
             <p>
-              Meu trabalho acadêmico tem se concentrado no estudo da língua, da
-              literatura, da retórica e da comunicação. Ao longo dos anos, tenho
-              me interessado cada vez mais por uma questão que também está no
-              centro da aprendizagem de idiomas: como as pessoas compreendem,
-              interpretam e expressam ideias com clareza.
-            </p>
-            <p>
-              Ensinar espanhol me permite reunir todos esses interesses. Gosto
-              de ajudar meus alunos não apenas a se comunicarem em espanhol, mas
-              também a compreender como a língua funciona e a desenvolver a
-              confiança necessária para utilizá-la de forma eficaz.
-            </p>
-            <p>
-              Atualmente, trabalho principalmente com profissionais e estudantes
-              universitários que buscam uma abordagem estruturada, reflexiva e
-              personalizada para aprender espanhol.
+              Hoje, acompanho pessoas que precisam do espanhol para alcançar
+              objetivos pessoais, acadêmicos ou profissionais importantes e que
+              buscam o tipo de ensino estruturado e de alta qualidade
+              tradicionalmente encontrado em universidades e institutos de
+              idiomas, mas em um formato on-line flexível e personalizado.
             </p>
             <Link to="/pt/contato" className="cta-button">
               Agende uma aula experimental gratuita{" "}

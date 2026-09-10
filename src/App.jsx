@@ -6,6 +6,7 @@ import Method from "./en/pages/Method/Method.jsx";
 import LevelTest from "./en/pages/LevelTest/LevelTest.jsx";
 import Pricing from "./en/pages/Pricing/Pricing.jsx";
 import Blog from "./en/pages/Blog/Blog.jsx";
+import BlogCategory from "./en/pages/Blog/BlogCategory.jsx";
 import BlogPost from "./en/pages/Blog/BlogPost.jsx";
 import Contact from "./en/pages/Contact/Contact.jsx";
 
@@ -43,6 +44,7 @@ function App() {
         <Route path="/level-test" element={<LevelTest />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/series/:seriesType" element={<BlogCategory />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/contact" element={<Contact />} />
 
