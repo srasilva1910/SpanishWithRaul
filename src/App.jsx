@@ -17,6 +17,7 @@ import MethodES from "./es/pagesES/MethodES/MethodES.jsx";
 import LevelTestES from "./es/pagesES/LevelTestES/LevelTestES.jsx";
 import PricingES from "./es/pagesES/PricingES/PricingES.jsx";
 import BlogES from "./es/pagesES/BlogES/BlogES.jsx";
+import BlogCategoryES from "./es/pagesES/BlogES/BlogCategoryES.jsx";
 import BlogPostES from "./es/pagesES/BlogES/BlogPostES.jsx";
 import ContactES from "./es/pagesES/ContactES/ContactES.jsx";
 
@@ -54,6 +55,10 @@ function App() {
         <Route path="/es/examen-de-nivel" element={<LevelTestES />} />
         <Route path="/es/precios" element={<PricingES />} />
         <Route path="/es/blog" element={<BlogES />} />
+        <Route
+          path="/es/blog/series/:seriesType"
+          element={<BlogCategoryES />}
+        />
         <Route path="/es/blog/:slug" element={<BlogPostES />} />
         <Route path="/es/contacto" element={<ContactES />} />
 
