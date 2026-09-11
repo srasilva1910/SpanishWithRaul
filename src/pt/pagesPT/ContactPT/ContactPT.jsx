@@ -118,7 +118,7 @@ const ContactPT = () => {
             <div className="contact-details">
               <div>
                 <h3>E-mail</h3>
-                <p>raul@email.com</p>
+                <p>r.r.ortiz1974@gmail.com</p>
               </div>
 
               <div>
