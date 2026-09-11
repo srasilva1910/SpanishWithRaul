@@ -38,7 +38,7 @@ const MinutoLiterarioPostPT = ({ post }) => {
             </section>
           ))}
 
-          <Link to="/pt/blog" className="back-link">
+          <Link to="/pt/blog/series/minuto-literario" className="back-link">
             ← Voltar ao Blog
           </Link>
         </article>

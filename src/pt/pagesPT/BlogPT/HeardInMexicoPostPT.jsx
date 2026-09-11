@@ -49,7 +49,7 @@ const HeardInMexicoPostPT = ({ post }) => {
             </div>
           )}
 
-          <Link to="/pt/blog" className="back-link">
+          <Link to="/pt/blog/series/escutei-no-mexico" className="back-link">
             ← Voltar ao Blog
           </Link>
         </article>

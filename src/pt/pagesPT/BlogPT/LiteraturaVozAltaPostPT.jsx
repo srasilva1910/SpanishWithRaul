@@ -47,7 +47,10 @@ const LiteraturaVozAltaPostPT = ({ post }) => {
             </section>
           ))}
 
-          <Link to="/pt/blog" className="back-link">
+          <Link
+            to="/pt/blog/series/literatura-en-voz-alta"
+            className="back-link"
+          >
             ← Back to Blog
           </Link>
         </article>

@@ -1,132 +1,191 @@
 /* ==============================
-   Blog Category
+   BLOG CATEGORY PAGE
    ============================== */
 
-.blog-category {
+.bc-page {
+  width: 100%;
   min-height: 100vh;
-  background: #f5f2eb;
+
+  background: var(--cream);
+  color: var(--text);
+
+  font-family: "Inter", sans-serif;
 }
 
 /* ==============================
-   Intro
+   INTRO
+   Igual que .blog-intro
    ============================== */
 
-.category-intro {
+.bc-intro {
+  width: 100%;
   max-width: 900px;
+
   margin: 0 auto;
-  padding: 5rem 2rem 4rem;
-  text-align: center;
+
+  padding: 4rem 2rem 4rem;
+
+  text-align: left;
 }
 
-.category-back-link {
+/* BACK */
+
+.bc-intro-back {
   display: inline-block;
+
   margin-bottom: 3rem;
 
-  color: #006b43;
+  color: var(--green);
+
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 600;
+
   text-decoration: none;
 
   transition: color 0.25s ease;
 }
 
-.category-back-link:hover {
-  color: #c8b273;
+.bc-intro-back:hover {
+  color: #a90d26;
 }
 
-.category-label {
+/* SERIES */
+
+.bc-label {
   display: block;
-  margin-bottom: 0.8rem;
+
+  margin-bottom: 0.7rem;
 
   color: #a90d26;
+
   font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.15em;
+  font-weight: 800;
+
+  letter-spacing: 0.12em;
   text-transform: uppercase;
 }
 
-.category-intro h1 {
+/* TITLE */
+
+.bc-intro h1 {
+  margin: 0 0 1.5rem;
+
+  color: var(--green);
+
+  font-family: "Inter", sans-serif;
+
+  font-size: clamp(3.2rem, 6vw, 5rem);
+  font-weight: 700;
+
+  line-height: 1;
+}
+
+/* GOLD LINE */
+
+.bc-divider {
+  width: 260px;
+  height: 1px;
+
+  margin: 0 0 1.5rem;
+
+  background: linear-gradient(
+    to right,
+    rgba(200, 178, 115, 1),
+    rgba(200, 178, 115, 0.25),
+    transparent
+  );
+}
+
+/* DESCRIPTION */
+
+.bc-intro p {
+  max-width: 780px;
+
   margin: 0;
 
-  color: #004f32;
-  font-family: "Playfair Display", serif;
-  font-size: clamp(2.5rem, 5vw, 4rem);
-  font-weight: 500;
-  line-height: 1.1;
-}
-
-.category-divider {
-  width: 70px;
-  height: 2px;
-
-  margin: 1.5rem auto;
-
-  background: #c8b273;
-}
-
-.category-intro p {
-  max-width: 650px;
-  margin: 0 auto;
-
   color: #555;
-  font-size: 1.05rem;
+
+  font-size: 1.25rem;
   line-height: 1.8;
 }
 
 /* ==============================
-   Posts Section
+   POSTS AREA
+   Igual que .blog-categories
    ============================== */
 
-.category-posts {
-  max-width: 1000px;
+.bc-posts {
+  width: 100%;
+  max-width: 1100px;
+
   margin: 0 auto;
+
   padding: 0 2rem 5rem;
 }
 
-.category-posts-header {
+/* ==============================
+   POSTS HEADER
+   ============================== */
+
+.bc-posts-header {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 
+  margin-bottom: 2rem;
   padding-bottom: 1rem;
 
-  border-bottom: 1px solid rgba(200, 178, 115, 0.5);
+  border-bottom: 1px solid rgba(200, 178, 115, 0.45);
 }
 
-.category-posts-header span {
+.bc-posts-header span {
   color: #777;
-  font-size: 0.85rem;
-  letter-spacing: 0.04em;
+
+  font-size: 0.8rem;
+  font-weight: 600;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* ==============================
-   Post Grid
+   GRID
    ============================== */
 
-.category-post-grid {
+.bc-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
   gap: 1.5rem;
 
-  padding-top: 2rem;
+  width: 100%;
 }
 
 /* ==============================
-   Post Card
+   CARD
+   Igual que .blog-card
    ============================== */
 
-.category-post-card {
+.bc-card {
+  position: relative;
+
   display: flex;
   flex-direction: column;
 
-  min-height: 300px;
+  width: 100%;
+  min-width: 0;
+  min-height: 250px;
+
   padding: 1.8rem;
 
-  background: rgba(255, 255, 255, 0.65);
+  background: rgba(255, 255, 255, 0.6);
 
-  border: 1px solid rgba(200, 178, 115, 0.6);
-  border-radius: 20px;
+  border: 1px solid rgba(200, 178, 115, 0.35);
 
-  box-shadow: 0 8px 25px rgba(0, 79, 50, 0.06);
+  border-radius: 22px;
+
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.035);
 
   transition:
     transform 0.25s ease,
@@ -134,19 +193,17 @@
     border-color 0.25s ease;
 }
 
-.category-post-card:hover {
+.bc-card:hover {
   transform: translateY(-5px);
 
-  border-color: #c8b273;
+  border-color: rgba(200, 178, 115, 0.7);
 
-  box-shadow: 0 14px 35px rgba(0, 79, 50, 0.1);
+  box-shadow: 0 22px 45px rgba(0, 0, 0, 0.06);
 }
 
-/* ==============================
-   Number
-   ============================== */
+/* NUMBER */
 
-.category-post-number {
+.bc-card-number {
   display: block;
 
   margin-bottom: 2rem;
@@ -154,181 +211,184 @@
   color: #c8b273;
 
   font-family: "Playfair Display", serif;
-  font-size: 1.5rem;
-  line-height: 1;
+
+  font-size: 0.95rem;
 }
 
-/* ==============================
-   Card Content
-   ============================== */
+/* CONTENT */
 
-.category-post-content {
+.bc-card-content {
   display: flex;
   flex: 1;
   flex-direction: column;
 }
 
-.category-post-content h2 {
+/* TITLE */
+
+.bc-card-content h2 {
   margin: 0 0 1rem;
 
-  color: #004f32;
+  color: var(--green);
 
-  font-family: "Playfair Display", serif;
-  font-size: 1.4rem;
-  font-weight: 500;
-  line-height: 1.3;
+  font-family: "Inter", sans-serif;
+
+  font-size: 1.45rem;
+  font-weight: 700;
+
+  line-height: 1.25;
 }
 
-.category-post-content p {
+/* DESCRIPTION */
+
+.bc-card-content p {
   margin: 0 0 1.5rem;
 
   color: #555;
 
-  font-size: 0.95rem;
+  font-size: 0.98rem;
   line-height: 1.7;
 }
 
-/* ==============================
-   Read Article Link
-   ============================== */
+/* READ ARTICLE */
 
-.category-post-link {
-  align-self: flex-start;
+.bc-card-link {
+  position: relative;
+
+  display: inline-block;
+  width: fit-content;
 
   margin-top: auto;
+  padding-bottom: 4px;
 
-  color: #006b43;
+  color: var(--green);
 
   font-size: 0.9rem;
-  font-weight: 600;
-  text-decoration: none;
+  font-weight: 800;
 
-  position: relative;
+  text-decoration: none;
 }
 
-.category-post-link::after {
+.bc-card-link::after {
   content: "";
 
   position: absolute;
+
   left: 0;
-  bottom: -4px;
+  bottom: 0;
 
   width: 100%;
   height: 1px;
 
-  background: #c8b273;
+  background: linear-gradient(
+    to right,
+    rgba(200, 178, 115, 1),
+    rgba(200, 178, 115, 0.2)
+  );
 
-  transform: scaleX(0);
-  transform-origin: left;
-
-  transition: transform 0.25s ease;
+  transition: width 0.25s ease;
 }
 
-.category-post-link:hover::after {
-  transform: scaleX(1);
+.bc-card-link:hover {
+  color: #a90d26;
+}
+
+.bc-card-link:hover::after {
+  width: 55%;
 }
 
 /* ==============================
-   Not Found
+   NOT FOUND
    ============================== */
 
-.category-not-found {
-  min-height: 60vh;
-
+.bc-not-found {
   display: flex;
   flex-direction: column;
+
   justify-content: center;
   align-items: center;
 
+  min-height: 60vh;
+
   padding: 4rem 2rem;
+
+  background: var(--cream);
 
   text-align: center;
 }
 
-.category-not-found h1 {
+.bc-not-found h1 {
   margin-bottom: 1.5rem;
 
-  color: #004f32;
-
-  font-family: "Playfair Display", serif;
-  font-size: 2.5rem;
-  font-weight: 500;
+  color: var(--green);
 }
 
-.back-link {
-  color: #006b43;
-  font-weight: 500;
+.bc-back-link {
+  color: var(--green);
+
+  font-weight: 600;
+
   text-decoration: none;
 }
 
-.back-link:hover {
-  color: #c8b273;
-}
-
 /* ==============================
-   Responsive
+   TABLET
    ============================== */
 
 @media (max-width: 900px) {
-  .category-post-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 768px) {
-  .category-intro {
-    padding: 4rem 1.5rem 3rem;
-  }
-
-  .category-back-link {
-    margin-bottom: 2.5rem;
-  }
-
-  .category-posts {
-    padding: 0 1.5rem 4rem;
-  }
-
-  .category-post-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .category-post-card {
-    min-height: 260px;
-  }
-}
-
-@media (max-width: 480px) {
-  .category-intro h1 {
-    font-size: 2.4rem;
-  }
-
-  .category-intro p {
-    font-size: 0.95rem;
-  }
-
-  .category-post-card {
-    padding: 1.5rem;
-  }
-
-  .category-post-number {
-    margin-bottom: 1.5rem;
+  .bc-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 /* ==============================
-   Typography
+   MOBILE
    ============================== */
 
-.blog-category,
-.blog-category p,
-.blog-category span,
-.blog-category a {
-  font-family: "Inter", sans-serif;
+@media (max-width: 768px) {
+  .bc-intro {
+    padding: 4rem 1.5rem 3rem;
+  }
+
+  .bc-intro-back {
+    margin-bottom: 2.5rem;
+  }
+
+  .bc-intro h1 {
+    font-size: 3rem;
+  }
+
+  .bc-intro p {
+    font-size: 1.05rem;
+  }
+
+  .bc-divider {
+    width: 180px;
+  }
+
+  .bc-posts {
+    padding: 0 1.5rem 4rem;
+  }
+
+  .bc-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bc-card {
+    min-height: 220px;
+    padding: 1.6rem;
+  }
 }
 
-.category-intro h1,
-.category-post-content h2,
-.category-post-number,
-.category-not-found h1 {
-  font-family: "Inter", sans-serif;
+/* ==============================
+   SMALL MOBILE
+   ============================== */
+
+@media (max-width: 480px) {
+  .bc-intro h1 {
+    font-size: 2.5rem;
+  }
+
+  .bc-card {
+    padding: 1.5rem;
+  }
 }

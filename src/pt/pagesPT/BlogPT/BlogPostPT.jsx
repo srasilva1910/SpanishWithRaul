@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import { blogPosts } from "../../../data/blogPostsPT.js";
+import { blogPostsPT } from "../../../data/blogPostsPT.js";
 
 import NavbarPT from "../../componentsPT/NavbarPT/NavbarPT.jsx";
 import FooterPT from "../../componentsPT/FooterPT/FooterPT.jsx";
@@ -13,7 +13,7 @@ import "./BlogPostPT.css";
 const BlogPostPT = () => {
   const { slug } = useParams();
 
-  const post = blogPosts.find((post) => post.slug === slug);
+  const post = blogPostsPT.find((post) => post.slug === slug);
 
   if (!post) {
     return (

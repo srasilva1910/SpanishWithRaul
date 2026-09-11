@@ -11,19 +11,19 @@ const categories = {
   "heard-in-mexico": {
     title: "Heard in Mexico",
     description:
-      "Expressions, words, and everyday language you are likely to hear in Mexico.",
+      "Expresiones, palabras y lenguaje cotidiano que probablemente escucharás en México.",
   },
 
   "minuto-literario": {
     title: "Minuto Literario",
     description:
-      "Short reflections on Spanish-language literature, ideas, and literary culture.",
+      "Breves reflexiones sobre la literatura en español y la cultura literaria.",
   },
 
   "literatura-en-voz-alta": {
     title: "Literatura en Voz Alta",
     description:
-      "Listen to literature in Spanish and discover works from the Hispanic literary tradition.",
+      "Escucha literatura en español y descubre obras de la tradición literaria hispánica.",
   },
 };
 
@@ -41,10 +41,10 @@ const BlogCategoryES = () => {
       <>
         <NavbarES />
 
-        <main className="category-not-found">
+        <main className="bc-not-found">
           <h1>Series not found</h1>
 
-          <Link to="/es/blog" className="back-link">
+          <Link to="/es/blog" className="bc-back-link">
             Back to Blog
           </Link>
         </main>
@@ -64,44 +64,43 @@ const BlogCategoryES = () => {
 
       <NavbarES />
 
-      <main className="blog-category">
-        <section className="category-intro">
-          <Link to="/es/blog" className="category-back-link">
+      <main className="bc-page">
+        <section className="bc-intro">
+          <Link to="/es/blog" className="bc-intro-back">
             ← Back to Blog
           </Link>
 
-          <span className="category-label">Series</span>
+          <span className="bc-label">Series</span>
 
           <h1>{category.title}</h1>
 
-          <div className="category-divider"></div>
+          <div className="bc-divider"></div>
 
           <p>{category.description}</p>
         </section>
 
-        <section className="category-posts">
-          <div className="category-posts-header">
+        <section className="bc-posts">
+          <div className="bc-posts-header">
             <span>
               {posts.length} {posts.length === 1 ? "article" : "articles"}
             </span>
           </div>
 
-          <div className="category-post-grid">
-            {posts.map((post, index) => (
-              <article className="category-post-card" key={post.slug}>
-                <span className="category-post-number">
-                  {String(posts.length - index).padStart(2, "0")}
+          <div className="bc-grid">
+            {posts.map((post) => (
+              <article className="bc-card" key={post.slug}>
+                <span className="bc-card-number">
+                  {String(
+                    blogPosts.findIndex((item) => item.slug === post.slug) + 1,
+                  ).padStart(2, "0")}
                 </span>
 
-                <div className="category-post-content">
+                <div className="bc-card-content">
                   <h2>{post.title}</h2>
 
                   <p>{post.introduction}</p>
 
-                  <Link
-                    to={`/blog/${post.slug}`}
-                    className="category-post-link"
-                  >
+                  <Link to={`/es/blog/${post.slug}`} className="bc-card-link">
                     Read article
                   </Link>
                 </div>

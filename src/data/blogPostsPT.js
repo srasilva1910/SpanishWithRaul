@@ -1,4 +1,4 @@
-export const blogPosts = [
+export const blogPostsPT = [
   {
     slug: "escutei-no-mexico-mande",
     seriesType: "escutei-no-mexico",

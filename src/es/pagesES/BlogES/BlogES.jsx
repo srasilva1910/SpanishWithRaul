@@ -12,19 +12,19 @@ const categories = [
     id: "heard-in-mexico",
     title: "Heard in Mexico",
     description:
-      "Expressions, words, and everyday language you are likely to hear in Mexico.",
+      "Expresiones, palabras y lenguaje cotidiano que probablemente escucharás en México.",
   },
   {
     id: "minuto-literario",
     title: "Minuto Literario",
     description:
-      "Short reflections on Spanish-language literature, ideas, and literary culture.",
+      "Breves reflexiones sobre la literatura en español y la cultura literaria.",
   },
   {
     id: "literatura-en-voz-alta",
     title: "Literatura en Voz Alta",
     description:
-      "Listen to literature in Spanish and discover works from the Hispanic literary tradition.",
+      "Escucha literatura en español y descubre obras de la tradición literaria hispánica.",
   },
 ];
 
@@ -75,7 +75,7 @@ const BlogES = () => {
                     to={`/es/blog/series/${category.id}`}
                     className="category-link"
                   >
-                    View all
+                    Ver todos
                   </Link>
                 </div>
 
@@ -99,7 +99,7 @@ const BlogES = () => {
                           to={`/es/blog/${post.slug}`}
                           className="blog-link"
                         >
-                          Read article
+                          Leer más
                         </Link>
                       </div>
                     </article>

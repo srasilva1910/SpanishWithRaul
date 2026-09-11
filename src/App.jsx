@@ -28,6 +28,7 @@ import MethodPT from "./pt/pagesPT/MethodPT/MethodPT.jsx";
 import LevelTestPT from "./pt/pagesPT/LevelTestPT/LevelTestPT.jsx";
 import PricingPT from "./pt/pagesPT/PricingPT/PricingPT.jsx";
 import BlogPT from "./pt/pagesPT/BlogPT/BlogPT.jsx";
+import BlogCategoryPT from "./pt/pagesPT/BlogPT/BlogCategoryPT.jsx";
 import BlogPostPT from "./pt/pagesPT/BlogPT/BlogPostPT.jsx";
 import ContactPT from "./pt/pagesPT/ContactPT/ContactPT.jsx";
 
@@ -68,6 +69,10 @@ function App() {
         <Route path="/pt/teste-de-nivel" element={<LevelTestPT />} />
         <Route path="/pt/precos" element={<PricingPT />} />
         <Route path="/pt/blog" element={<BlogPT />} />
+        <Route
+          path="/pt/blog/series/:seriesType"
+          element={<BlogCategoryPT />}
+        />
         <Route path="/pt/blog/:slug" element={<BlogPostPT />} />
         <Route path="/pt/contato" element={<ContactPT />} />
       </Routes>

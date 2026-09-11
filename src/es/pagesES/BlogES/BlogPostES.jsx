@@ -22,7 +22,7 @@ const BlogPostES = () => {
 
         <main className="post-not-found">
           <h1>No encontrado</h1>
-          <Link to="/es/blog" className="back-link">
+          <Link to="/es/blog/series/:seriesType" className="back-link">
             Regresar al Blog
           </Link>
         </main>
