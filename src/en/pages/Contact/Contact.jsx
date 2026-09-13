@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import emailjs from "@emailjs/browser";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp, FaInstagram, FaFacebookF } from "react-icons/fa";
 import Navbar from "../../components/Navbar/Navbar.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 import "./Contact.css";
@@ -130,7 +130,28 @@ const Contact = () => {
               </div>
               <div>
                 <h3>Social Media</h3>
-                <p>Instagram · Facebook · YouTube</p>
+
+                <div className="contact-social-links">
+                  <a
+                    href="https://www.instagram.com/spanish.with.raul/?hl=es"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Spanish With Raúl on Instagram"
+                  >
+                    <FaInstagram />
+                    <span>Instagram</span>
+                  </a>
+
+                  <a
+                    href="https://web.facebook.com/profile.php?id=61584364967010"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Spanish With Raúl on Facebook"
+                  >
+                    <FaFacebookF />
+                    <span>Facebook</span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
