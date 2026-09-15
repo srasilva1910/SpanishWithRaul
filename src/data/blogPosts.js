@@ -379,4 +379,84 @@ export const blogPosts = [
       },
     ],
   },
+
+  {
+    slug: "heard-in-mexico-despachar",
+    seriesType: "heard-in-mexico",
+    category: "Heard in Mexico",
+    title: "Heard in Mexico: Despachar",
+    seoTitle: "What Does 'Despachar' Mean in Mexico? | Spanish With Raúl",
+    seoDescription:
+      "Learn what 'Despachar' mean in Mexican Spanish and how to use it naturally.",
+    media: {
+      type: "image",
+      src: "/images/blog/heardinmexico10.jpg",
+      alt: "Mexican Spanish expression Despachar",
+    },
+
+    introduction:
+      "Someone says 'Que te voy a despachar?' to you. What does that means?",
+  },
+
+  {
+    slug: "minuto-literario-desde-cuando-somos-mexicanos",
+    seriesType: "minuto-literario",
+    category: "Minuto Literario",
+    title: "Minuto Literario #7",
+    seoTitle:
+      "Minuto Literario: Desde cuando somos mexicanos? | Spanish With Raúl",
+    seoDescription:
+      "A short literary reflection for Spanish learners interested in literature and culture.",
+    introduction:
+      "Cuando leemos textos del siglo XVII con los ojos del presente, corremos el riesgo de hacerles preguntas que sus autores nunca se hicieron.",
+    sections: [
+      {
+        paragraphs: [
+          "Cuando leemos textos del siglo XVII con los ojos del presente, corremos el riesgo de hacerles preguntas que sus autores nunca se hicieron. He aquí algunas: ¿quién era mexicano?, ¿quién era español?, ¿cómo se identificaban las personas que habitaban estos territorios antes de que existieran los países modernos?",
+          'Los Infortunios de Alonso Ramírez, de Carlos de Sigüenza y Góngora, ofrecen algunas pistas muy interesantes. Alonso Ramírez comienza su relato diciendo: "Es mi nombre Alonso Ramírez y mi patria la ciudad de San Juan de Puerto Rico, cabeza de la isla..." (ed. Porrúa, p. 10). Alonso no dice que su patria sea España ni utiliza una idea de nación como la entendemos hoy. Su patria es su ciudad: San Juan de Puerto Rico."',
+          'Más adelante, cuando los piratas ingleses lo obligan a participar en sus actividades y él intenta resistirse, el narrador explica lo que aquellos hombres pensaron de él: "Que siendo español, y por consiguiente cobarde..." (p. 27). Lo curioso es que Alonso era natural de Puerto Rico. Para aquellos piratas, "español" no significaba necesariamente nacido en la península ibérica. Era una categoría que incluía a los habitantes de los territorios de la Monarquía Hispánica.',
+          'Esto queda todavía más claro cuando Sigüenza presenta a uno de los acompañantes de Alonso: "Juan de Casas, español, natural de la Puebla de los Ángeles, en Nueva España..." p. 40). Juan de Casas era español y era natural de Puebla de los Ángeles. No había contradicción entre ambas cosas.',
+          'Y cuando menciona a otro personaje escribe: "un español que se preciaba de sevillano..." (p. 45). Un sevillano podía ser español; un poblano también, y lo mismo un puertorriqueño. Eso no quiere decir que no existieran diferencias. Había rivalidades entre peninsulares y criollos, orgullos regionales, prejuicios y jerarquías sociales. Igual que hoy existen diferencias y rivalidades entre capitalinos y provincianos; entre pueblos vecinos; entre clases sociales. Pero todavía no existían las nacionalidades modernas con fronteras como las conocemos ahora. ',
+          "Por eso resulta curioso imaginar que, cuando Juan Ruiz de Alarcón viajó a Madrid, seguramente nadie le pidió una visa para entrar a España. Y las obras de sor Juana Inés de la Cruz no tuvieron que detenerse en una aduana para llegar a la península. La razón es sencilla: México todavía no era un país separado de España. Un habitante de Puebla, de Puerto Rico o de Sevilla podía formar parte de una misma comunidad política: la Monarquía Hispánica.",
+          'Las palabras también tienen historia. "Español", "americano" y "mexicano" no siempre significaron lo mismo. Sigüenza y Góngora, por ejemplo, era español americano y natural de México, esto último por haber nacido y crecido en la Ciudad de México. Juan Ruiz de Alarcón, en cambio, era español americano, pero natural de Taxco (según algunos).',
+          "Quizá la pregunta no sea solamente quién era mexicano en tiempos de Sigüenza, sino cuándo dejamos de ser españoles para convertirnos en mexicanos. ¿Con la independencia en 1821? O ¿esto fue consecuencia de que ya antes habíamos dejado de serlo? ¿Cuándo?",
+        ],
+      },
+    ],
+  },
+
+  {
+    slug: "heard-in-mexico-recorrerse",
+    seriesType: "heard-in-mexico",
+    category: "Heard in Mexico",
+    title: "Heard in Mexico: Recorrerse",
+    seoTitle: "What Does 'Recorrerse' Mean in Mexico? | Spanish With Raúl",
+    seoDescription:
+      "Learn what 'Recorrerse' mean in Mexican Spanish and how to use it naturally.",
+    media: {
+      type: "image",
+      src: "/images/blog/heardinmexico11.jpg",
+      alt: "Mexican Spanish expression recorrerse",
+    },
+
+    introduction:
+      "The bus driver says 'Recorranse!' to everybody. What does that means?",
+  },
+
+  {
+    slug: "heard-in-mexico-tejuino",
+    seriesType: "heard-in-mexico",
+    category: "Heard in Mexico",
+    title: "Heard in Mexico: Tejuino",
+    seoTitle: "What Does 'Tejuino' Mean in Mexico? | Spanish With Raúl",
+    seoDescription:
+      "Learn what 'Tejuino' mean in Mexican Spanish and how to use it naturally.",
+    media: {
+      type: "image",
+      src: "/images/blog/heardinmexico12.jpg",
+      alt: "Mexican Spanish expression tejuino",
+    },
+
+    introduction: "Somebody is buying a Tejuino near you. What is that?",
+  },
 ];
